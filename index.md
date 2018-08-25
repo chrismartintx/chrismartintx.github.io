@@ -1,9 +1,23 @@
-## chris martin
+### chris martin
 
-born and raised in Texas
-
+## born and raised in Texas
 lifelong nerd, with an obsession with technology... still trying to figure out how to combine my response and tech worlds
 
-other things about me, life, and previous jobs:
+# about me
+husband, father (x3), ultra marathoner, cyclist
 
-husband, father (x3), ultra marathoner, cyclist, devops gumbi, firefighter, paramedic, hazmat tech, search and rescue tech, county and state emergency management
+# employment
+texas department of public safety division of emergency management - devops<br/>
+texas task force 1 - technical search specialist<br/>
+brazos county - deputy emergency management coordinator<br/>
+bryan fire department - aerial apparatus operator (truckie), paramedic, technical rescue team, hazmat team
+
+# education
+texas a&m engineering extension service<br/>
+wife<br/>
+family<br/>
+long, long list of supervisors and coworkers, that believed in me<br/>
+you broke it?! fix it!
+
+# influences
+scouts, masonry, being told no
