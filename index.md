@@ -18,6 +18,6 @@ husband, father (x3), ultra marathoner, lifelong nerd, with an obsession with te
 * you broke it?! fix it!
 
 ### influences
-scouts, masonry, being told no
+scouts, masonry, taekwondo, being told no
 
 [contact](mailto:chris@chrismartintx.com)
