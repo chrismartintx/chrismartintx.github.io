@@ -22,4 +22,4 @@ husband, father (x3), ultra marathoner, cyclist
 ### influences
 scouts, masonry, being told no
 
-[contact](chris@chrismartintx.com)
+[contact](mailto:chris@chrismartintx.com)
