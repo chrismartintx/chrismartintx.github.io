@@ -1,7 +1,7 @@
 # chris martin
 
 ## born and raised in Texas
-lifelong nerd, with an obsession with technology... still trying to figure out how to combine my response and tech worlds
+lifelong nerd, with an obsession with technology... still trying to figure out how to combine my response and tech worlds.  also into car culture, physical sciences (especially weather), progressive house, coffee
 
 ### about me
 husband, father (x3), ultra marathoner, cyclist
