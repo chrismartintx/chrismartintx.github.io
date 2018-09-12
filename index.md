@@ -2,22 +2,30 @@
 
 ## born and raised in Texas
 ### about me
-husband, father (x3), ultra marathoner, lifelong nerd, with an obsession with technology... still trying to figure out how to combine my response and tech worlds.  also into car culture, physical sciences (especially weather), progressive house, coffee, cycling
+husband, father of three, ultra marathoner, lifelong nerd, with a technology obsession... still trying to figure out how to combine my passion for response and knowledge of tech.  also into car culture, physical sciences (especially weather), progressive house, coffee, cycling
 
 ### employment
-* texas department of public safety division of emergency management - devops<br/>
-* texas task force 1 - technical search specialist<br/>
-* brazos county - deputy emergency management coordinator<br/>
-* bryan fire department - aerial apparatus operator, paramedic, technical rescue team, hazmat team
+* 2016 - present [texas department of public safety division of emergency management critical information systems](https://www.dps.texas.gov/dem/cis/index.htm) - devops<br/>
+* 2007 - present [texas task force 1](https://usar.tamu.edu) - technical search specialist<br/>
+* 2015 - 2016 [brazos county](http://brazosceoc.org) - deputy emergency management coordinator<br/>
+* 2003 - 2015 [bryan fire department](https://www.bryantx.gov/fire/) - aerial apparatus operator, paramedic, technical rescue team, hazmat team
 
 ### education
-* texas a&m engineering extension service<br/>
-* wife<br/>
-* family<br/>
+* [texas a&m engineering extension service](https://www.teex.org)<br/>
+* my wife<br/>
+* my family<br/>
 * long, long list of supervisors and coworkers, that believed in me<br/>
 * you broke it?! fix it!
 
 ### influences
-scouts, masonry, taekwondo, being told no
+masonry ([Austin No. 12](http://austinlodge12.com), Grand Lodge of Texas A.F. & A.M.), boy scouts, taekwondo, being told no
 
-[contact](mailto:chris@chrismartintx.com)
+### favorites
+[Tritonal](http://tritonalmusic.com)<br/>
+[Techmeme](https://techmeme.com)<br/>
+[TWIT](https://twit.tv)<br/>
+[Inside](https://inside.com)<br/>
+<br/>
+<br/>
+[email](mailto:chris@chrismartintx.com)<br/>
+[twitter](https://twitter.com/chrismartintx)<br/>
