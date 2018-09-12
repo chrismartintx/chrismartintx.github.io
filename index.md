@@ -18,14 +18,16 @@ husband, father of three, ultra marathoner, lifelong nerd, with a technology obs
 * you broke it?! fix it!
 
 ### influences
-masonry ([Austin No. 12](http://austinlodge12.com), Grand Lodge of Texas A.F. & A.M.), boy scouts, taekwondo, being told no
+* masonry ([Austin No. 12](http://austinlodge12.com), Grand Lodge of Texas A.F. & A.M.)<br/>
+* boy scouts<br/>
+* taekwondo<br/>
+* being told no
 
 ### favorites
-[Tritonal](http://tritonalmusic.com)<br/>
-[Techmeme](https://techmeme.com)<br/>
-[TWIT](https://twit.tv)<br/>
-[Inside](https://inside.com)<br/>
+* [Tritonal](http://tritonalmusic.com)<br/>
+* [Techmeme](https://techmeme.com)<br/>
+* [TWIT](https://twit.tv)<br/>
+* [Inside](https://inside.com)<br/>
 <br/>
 <br/>
-[email](mailto:chris@chrismartintx.com)<br/>
-[twitter](https://twitter.com/chrismartintx)<br/>
+[email](mailto:chris@chrismartintx.com) | [twitter](https://twitter.com/chrismartintx)
