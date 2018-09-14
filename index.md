@@ -31,4 +31,3 @@ husband, father of three, ultra marathoner, lifelong nerd, with a technology obs
 <br/>
 <br/>
 [email](mailto:chris@chrismartintx.com) | [twitter](https://twitter.com/chrismartintx)
-[deploy](/deploy.md)
