@@ -24,10 +24,10 @@ husband, father of three, ultra marathoner, lifelong nerd, with a technology obs
 * being told no
 
 ### favorites
-* [Tritonal](http://tritonalmusic.com)<br/>
 * [Techmeme](https://techmeme.com)<br/>
-* [TWIT](https://twit.tv)<br/>
-* [Inside](https://inside.com)<br/>
+* [TWiT.tv](https://twit.tv)<br/>
+* [Tritonal](http://tritonalmusic.com)<br/>
+* [Pocket Casts](https://pocketcasts.com)<br/>
 <br/>
 <br/>
 [email](mailto:chris@chrismartintx.com) | [twitter](https://twitter.com/chrismartintx)
