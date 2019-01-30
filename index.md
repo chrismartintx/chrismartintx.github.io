@@ -7,9 +7,9 @@ husband, father of three, ultra marathoner, lifelong nerd, with a technology obs
 ### employment
 2018 - present | [bcfs emd](https://bcfs.net/services/emergency-management) - critial information systems<br/>
 2016 - 2018 | [texas department of public safety division of emergency management critical information systems](https://www.dps.texas.gov/dem/cis/index.htm) - devops<br/>
-2007 - present | [texas task force 1](https://usar.tamu.edu) - technical search specialist<br/>
+2007 - 2018 | [texas a&m task force 1](https://usar.tamu.edu) - technical search specialist<br/>
 2015 - 2016 | [brazos county](http://brazosceoc.org) - deputy emergency management coordinator<br/>
-2003 - 2015 | [bryan fire department](https://www.bryantx.gov/fire/) - aerial apparatus operator, paramedic, technical rescue team, hazmat team
+2003 - 2015 | [bryan fire department](https://www.bryantx.gov/fire/) - aerial apparatus operator, paramedic, technical rescue team, hazmat technician
 
 ### education
 * [texas a&m engineering extension service](https://www.teex.org)<br/>
@@ -26,8 +26,12 @@ husband, father of three, ultra marathoner, lifelong nerd, with a technology obs
 
 ### favorites
 * [Techmeme](https://techmeme.com)<br/>
+* [the cyberwire](https://thecyberwire.com)<br/>
 * [TWiT.tv](https://twit.tv)<br/>
+* [WeatherBrains](https://weatherbrains.com)<br/>
+* [Sam Harris](https://samharris.org)<br/>
+* [Wheel Bearings](https://wheelbearings.media)<br/>
 * [Tritonal](http://tritonalmusic.com)<br/>
 <br/>
 <br/>
-[email](mailto:chris@chrismartintx.com) | [twitter](https://twitter.com/chrismartintx)
+[email](mailto:chris@chrismartintx.com) | [twitter](https://twitter.com/chrismartintx) | [linkedin](https://www.linkedin.com/in/cmtx/)
