@@ -26,12 +26,14 @@ husband, father of three, ultra marathoner, lifelong nerd, with a technology obs
 
 ### favorites
 * [Techmeme](https://techmeme.com)<br/>
+* [Techmeme Ride Home](https://news.techmeme.com/180306/podcast)<br/>
 * [the cyberwire](https://thecyberwire.com)<br/>
 * [TWiT.tv](https://twit.tv)<br/>
 * [WeatherBrains](https://weatherbrains.com)<br/>
 * [Sam Harris](https://samharris.org)<br/>
-* [Wheel Bearings](https://wheelbearings.media)<br/>
+* [Dan Carlin](https://www.dancarlin.com/)<br/>
 * [Tritonal](http://tritonalmusic.com)<br/>
-<br/>
+* [Wheel Bearings Podcast](https://wheelbearings.media)<br/>
+* [Patreon](https://www.patreon.com/chrismartintx/)<br/>
 <br/>
 [email](mailto:chris@chrismartintx.com) | [twitter](https://twitter.com/chrismartintx) | [linkedin](https://www.linkedin.com/in/cmtx/)
