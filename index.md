@@ -32,6 +32,7 @@ husband, father of three, ultra marathoner, lifelong nerd, with a technology obs
 * [WeatherBrains](https://weatherbrains.com)<br/>
 * [Sam Harris](https://samharris.org)<br/>
 * [Dan Carlin](https://www.dancarlin.com/)<br/>
+* [Fireside Conference](https://firesideconf.com)
 * [Tritonal](http://tritonalmusic.com)<br/>
 * [Wheel Bearings Podcast](https://wheelbearings.media)<br/>
 * [Patreon](https://www.patreon.com/chrismartintx/)<br/>
