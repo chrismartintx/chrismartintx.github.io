@@ -2,7 +2,7 @@
 
 ## born and raised in Texas
 ### about me
-husband, father of three, ultra marathoner, lifelong nerd, with a technology obsession... still trying to figure out how to combine my passion for response and knowledge of tech.  also into car culture, physical sciences (especially weather), progressive house, coffee, cycling
+husband, father of three, ultra marathoner, lifelong nerd who loves technology...  trying to figure out how to combine my passion for response and knowledge of tech.  also into car culture, physical sciences (especially weather), progressive house, coffee, cycling
 
 ### employment
 2018 - present | [bcfs emd](https://bcfs.net/services/emergency-management) - critial information services (WebEOC, Workday)<br/>
@@ -15,8 +15,8 @@ husband, father of three, ultra marathoner, lifelong nerd, with a technology obs
 * [texas a&m engineering extension service](https://www.teex.org)<br/>
 * my wife<br/>
 * my family<br/>
-* long, long list of supervisors and coworkers that believed in me<br/>
-* you broke it?! fix it!
+* long list of supervisors and coworkers that believed in me<br/>
+* you broke it? fix it!
 
 ### influences
 * masonry ([Austin No. 12](http://austinlodge12.com), Grand Lodge of Texas A.F. & A.M.)<br/>
@@ -38,4 +38,4 @@ husband, father of three, ultra marathoner, lifelong nerd, with a technology obs
 * [Wheel Bearings Podcast](https://wheelbearings.media)<br/>
 * [Patreon](https://www.patreon.com/chrismartintx/)<br/>
 <br/>
-[email](mailto:chris@chrismartintx.com) | [twitter](https://twitter.com/chrismartintx) | [linkedin](https://www.linkedin.com/in/cmtx/)
+[keybase](https://keybase.io/cmtx) | [email](mailto:chris@chrismartintx.com) | [twitter](https://twitter.com/chrismartintx) | [linkedin](https://www.linkedin.com/in/cmtx/)
