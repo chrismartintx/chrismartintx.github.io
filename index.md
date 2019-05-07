@@ -38,4 +38,4 @@ husband, father of three, ultra marathoner, lifelong nerd who loves technology..
 * [Wheel Bearings Podcast](https://wheelbearings.media)<br/>
 * [Patreon](https://www.patreon.com/chrismartintx/)<br/>
 <br/>
-[keybase](https://keybase.io/cmtx) | [email](mailto:chris@chrismartintx.com) | [twitter](https://twitter.com/chrismartintx) | [linkedin](https://www.linkedin.com/in/cmtx/)
+[keybase](https://keybase.io/cmtx) | [email](mailto:chris@chrismartintx.com) | [twitter](https://twitter.com/chrismartintx)
