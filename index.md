@@ -25,17 +25,19 @@ husband, father of three, ultra marathoner, lifelong nerd who loves technology..
 * being told no
 
 ### favorites
+* [Sam Harris](https://samharris.org)<br/>
+* [Dan Carlin](https://www.dancarlin.com/)<br/>
 * [Techmeme](https://techmeme.com)<br/>
 * [Techmeme Ride Home](https://news.techmeme.com/180306/podcast)<br/>
 * [the cyberwire](https://thecyberwire.com)<br/>
 * [TWiT.tv](https://twit.tv)<br/>
-* [WeatherBrains](https://weatherbrains.com)<br/>
-* [Sam Harris](https://samharris.org)<br/>
-* [Dan Carlin](https://www.dancarlin.com/)<br/>
-* [Fireside Conference](https://firesideconf.com)<br/>
+* [Stratfor](https://worldview.stratfor.com/)<br/>
 * [Council on Foreign Relations](https://www.cfr.org)<br/>
-* [Tritonal](http://tritonalmusic.com)<br/>
+* [Find What Feel Good](https://fwfg.com/)<br/>
+* [Armchair Expert](https://armchairexpertpod.com/)<br/>
+* [WeatherBrains](https://weatherbrains.com)<br/>
 * [Wheel Bearings Podcast](https://wheelbearings.media)<br/>
-* [Patreon](https://www.patreon.com/chrismartintx/)<br/>
+* [Tritonal](http://tritonalmusic.com)<br/>
+* [Fireside Conference](https://firesideconf.com)<br/>
 <br/>
 [keybase](https://keybase.io/cmtx) | [email](mailto:chris@chrismartintx.com) | [twitter](https://twitter.com/chrismartintx)
