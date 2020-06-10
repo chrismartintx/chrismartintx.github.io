@@ -2,7 +2,7 @@
 
 ## born and raised in Texas
 ### about me
-husband, father of three, ultra marathoner, lifelong nerd who loves technology...  trying to figure out how to combine my passion for response and knowledge of tech.  also into car culture, physical sciences (especially weather), progressive house, coffee, cycling
+father of three, ultra marathoner, lifelong nerd who loves technology...  trying to figure out how to combine my passion for response and knowledge of tech.  also into car culture, physical sciences (especially weather), progressive house, coffee, cycling
 
 ### employment
 2018 - present | [bcfs emd](https://bcfs.net/services/emergency-management) - critial information services (WebEOC, Workday)<br/>
@@ -12,9 +12,8 @@ husband, father of three, ultra marathoner, lifelong nerd who loves technology..
 2003 - 2015 | [bryan fire department](https://www.bryantx.gov/fire/) - aerial apparatus operator, paramedic, technical rescue team, hazmat technician
 
 ### education
-* [texas a&m engineering extension service](https://www.teex.org)<br/>
-* my wife<br/>
 * my family<br/>
+* [texas a&m engineering extension service](https://www.teex.org)<br/>
 * long list of supervisors and coworkers that believed in me<br/>
 * you broke it? fix it!
 
@@ -25,6 +24,7 @@ husband, father of three, ultra marathoner, lifelong nerd who loves technology..
 * being told no
 
 ### favorites
+* [Tritonal](http://tritonalmusic.com)<br/>
 * [Sam Harris](https://samharris.org)<br/>
 * [Dan Carlin](https://www.dancarlin.com/)<br/>
 * [Techmeme](https://techmeme.com)<br/>
@@ -37,7 +37,6 @@ husband, father of three, ultra marathoner, lifelong nerd who loves technology..
 * [Armchair Expert](https://armchairexpertpod.com/)<br/>
 * [WeatherBrains](https://weatherbrains.com)<br/>
 * [Wheel Bearings Podcast](https://wheelbearings.media)<br/>
-* [Tritonal](http://tritonalmusic.com)<br/>
 * [Fireside Conference](https://firesideconf.com)<br/>
 <br/>
 [keybase](https://keybase.io/cmtx) | [email](mailto:chris@chrismartintx.com) | [twitter](https://twitter.com/chrismartintx)
