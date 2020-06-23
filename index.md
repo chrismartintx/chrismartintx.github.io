@@ -2,7 +2,7 @@
 
 ## born and raised in Texas
 ### about me
-father of three, ultra marathoner, lifelong nerd who loves technology...  trying to figure out how to combine my passion for response and knowledge of tech.  also into car culture, physical sciences (especially weather), progressive house, coffee, cycling
+father of three, ultra marathoner, lifelong nerd who loves technology...  trying to figure out how to combine my passion for response and knowledge of tech.  also into car culture, physical sciences (especially weather), progressive house, coffee, yoga
 
 ### employment
 2018 - present | [bcfs emd](https://bcfs.net/services/emergency-management) - critial information services (WebEOC, Workday)<br/>
@@ -33,7 +33,7 @@ father of three, ultra marathoner, lifelong nerd who loves technology...  trying
 * [TWiT.tv](https://twit.tv)<br/>
 * [Stratfor](https://worldview.stratfor.com/)<br/>
 * [Council on Foreign Relations](https://www.cfr.org)<br/>
-* [Find What Feel Good](https://fwfg.com/)<br/>
+* [Find What Feels Good](https://fwfg.com/)<br/>
 * [Armchair Expert](https://armchairexpertpod.com/)<br/>
 * [WeatherBrains](https://weatherbrains.com)<br/>
 * [Wheel Bearings Podcast](https://wheelbearings.media)<br/>
