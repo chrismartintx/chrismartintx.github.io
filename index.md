@@ -40,4 +40,4 @@ husband, father of three, ultra marathoner, lifelong nerd who loves technology. 
 * [Wheel Bearings Podcast](https://wheelbearings.media)<br/>
 * [Fireside Conference](https://firesideconf.com)<br/>
 <br/>
-[email](mailto:chris@chrismartintx.com) | [twitter](https://twitter.com/chrismartintx) | [facebook](https://www.facebook.com/cmtx512) | [instagram](https://www.instagram.com/cmtx512/)
+[email](mailto:chris@chrismartintx.com) | [twitter](https://twitter.com/chrismartintx) | [facebook](https://www.facebook.com/cmtx512) | [instagram](https://www.instagram.com/cmtx512)
