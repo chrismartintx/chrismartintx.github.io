@@ -5,7 +5,7 @@
 husband, father of three, ultra marathoner, lifelong nerd who loves technology...  trying to figure out how to combine my passion for response and knowledge of tech.  also into car culture, physical sciences (especially weather), progressive house, coffee, yoga
 
 ### employment
-2020 - present | [juvare](https://www.juvare.com/webeoc/) - technical implementation analyst
+2020 - present | [juvare](https://www.juvare.com/webeoc/) - technical implementation analyst<br/>
 2018 - 2020 | [bcfs hhs emd](https://bcfsemd.org/) - critial information services (WebEOC, Workday)<br/>
 2016 - 2018 | [texas department of public safety division of emergency management](https://tdem.texas.gov/) - critical information systems (WebEOC)<br/>
 2007 - 2018 | [texas a&m task force 1](https://texastaskforce1.org/) - technical search specialist<br/>
