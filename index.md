@@ -1,5 +1,3 @@
-# chris martin
-
 ## born and raised in Texas
 ### about me
 husband, father of three, ultra marathoner, lifelong nerd who loves technology.  also into car culture, physical sciences (especially weather), progressive house, coffee, and yoga.
