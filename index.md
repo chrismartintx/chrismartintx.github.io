@@ -2,12 +2,13 @@
 
 ## born and raised in Texas
 ### about me
-father of three, ultra marathoner, lifelong nerd who loves technology...  trying to figure out how to combine my passion for response and knowledge of tech.  also into car culture, physical sciences (especially weather), progressive house, coffee, yoga
+husband, father of three, ultra marathoner, lifelong nerd who loves technology...  trying to figure out how to combine my passion for response and knowledge of tech.  also into car culture, physical sciences (especially weather), progressive house, coffee, yoga
 
 ### employment
-2018 - present | [bcfs emd](https://bcfs.net/services/emergency-management) - critial information services (WebEOC, Workday)<br/>
-2016 - 2018 | [texas department of public safety division of emergency management](https://www.dps.texas.gov/dem/cis/index.htm) - critical information systems (WebEOC)<br/>
-2007 - 2018 | [texas a&m task force 1](https://usar.tamu.edu) - technical search specialist<br/>
+2020 - present | [juvare](https://www.juvare.com/webeoc/) - technical implementation analyst
+2018 - 2020 | [bcfs hhs emd](https://bcfsemd.org/) - critial information services (WebEOC, Workday)<br/>
+2016 - 2018 | [texas department of public safety division of emergency management](https://tdem.texas.gov/) - critical information systems (WebEOC)<br/>
+2007 - 2018 | [texas a&m task force 1](https://texastaskforce1.org/) - technical search specialist<br/>
 2015 - 2016 | [brazos county](http://brazosceoc.org) - deputy emergency management coordinator<br/>
 2003 - 2015 | [bryan fire department](https://www.bryantx.gov/fire/) - aerial apparatus operator, paramedic, technical rescue team, hazmat technician
 
