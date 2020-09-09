@@ -14,7 +14,7 @@ husband, father of three, ultra marathoner, lifelong nerd who loves technology. 
 
 ### education
 * my family<br/>
-* [texas a&m engineering extension service](https://www.teex.org)<br/>
+* [texas a&m engineering extension service](https://www.teex.org) - firefighting (recruit class #110), paramedic, hazmat, technical rescue, incident command<br/>
 * long list of supervisors and coworkers that believed in me<br/>
 * you broke it? fix it!
 
@@ -40,4 +40,4 @@ husband, father of three, ultra marathoner, lifelong nerd who loves technology. 
 * [Wheel Bearings Podcast](https://wheelbearings.media)<br/>
 * [Fireside Conference](https://firesideconf.com)<br/>
 <br/>
-[keybase](https://keybase.io/cmtx) | [email](mailto:chris@chrismartintx.com) | [twitter](https://twitter.com/chrismartintx)
+[email](mailto:chris@chrismartintx.com) | [twitter](https://twitter.com/chrismartintx) | [facebook](https://www.facebook.com/cmtx512) | [instagram](https://www.instagram.com/cmtx512/)
