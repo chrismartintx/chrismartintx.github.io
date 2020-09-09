@@ -19,7 +19,7 @@ husband, father of three, ultra marathoner, lifelong nerd who loves technology. 
 * you broke it? fix it!
 
 ### influences
-* masonry ([Austin No. 12](http://austinlodge12.com), Grand Lodge of Texas A.F. & A.M.)<br/>
+* masonry - [Austin No. 12](http://austinlodge12.com), Grand Lodge of Texas A.F. & A.M.<br/>
 * boy scouts<br/>
 * taekwondo<br/>
 * being told no
