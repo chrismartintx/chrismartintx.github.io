@@ -13,7 +13,7 @@ husband, father of three, ultra marathoner, lifelong nerd who loves technology. 
 2003 - 2015 | [bryan fire department](https://www.bryantx.gov/fire/) - aerial apparatus operator, paramedic, technical rescue team, hazmat technician
 
 ### education
-* my family<br/>
+* my family... thanks padre<br/>
 * [texas a&m engineering extension service](https://www.teex.org) - firefighting (recruit class #110), paramedic, hazmat, technical rescue, incident command<br/>
 * long list of supervisors and coworkers that believed in me<br/>
 * you broke it? fix it!
