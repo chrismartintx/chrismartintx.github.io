@@ -30,12 +30,15 @@ husband, father of three, ultra marathoner, lifelong nerd who loves technology. 
 * [Techmeme](https://techmeme.com)<br/>
 * [Techmeme Ride Home](https://news.techmeme.com/180306/podcast)<br/>
 * [the cyberwire](https://thecyberwire.com)<br/>
-* [TWiT.tv](https://twit.tv)<br/>
+* [This Week in Tech](https://twit.tv)<br/>
+* [Darknet Diaries](https://darknetdiaries.com/)<br/>
+* [This Week in Science](https://www.twis.org/)<br/>
 * [Stratfor](https://worldview.stratfor.com/)<br/>
 * [Council on Foreign Relations](https://www.cfr.org)<br/>
 * [Find What Feels Good](https://fwfg.com/)<br/>
 * [Armchair Expert](https://armchairexpertpod.com/)<br/>
 * [WeatherBrains](https://weatherbrains.com)<br/>
+* [Jalopnik](https://jalopnik.com)<br/>
 * [Wheel Bearings Podcast](https://wheelbearings.media)<br/>
 * [Fireside Conference](https://firesideconf.com)<br/>
 <br/>
