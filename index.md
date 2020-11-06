@@ -7,7 +7,7 @@ husband, father of three, ultra marathoner, lifelong nerd who loves technology. 
 2020 - present | [juvare](https://www.juvare.com/webeoc/) - technical implementation analyst<br/>
 2018 - 2020 | [bcfs hhs](https://bcfsemd.org/) - critial information services (WebEOC, Workday)<br/>
 2016 - 2018 | [texas department of public safety division of emergency management](https://tdem.texas.gov/) - critical information systems (WebEOC)<br/>
-2007 - 2018 | [texas a&m task force 1](https://texastaskforce1.org/) - technical search specialist<br/>
+2007 - 2018 | [texas a&m task force 1](https://texastaskforce1.org/) - technical search specialist, swift water rescue<br/>
 2015 - 2016 | [brazos county](http://brazosceoc.org) - deputy emergency management coordinator<br/>
 2003 - 2015 | [bryan fire department](https://www.bryantx.gov/fire/) - aerial apparatus operator, paramedic, technical rescue team, hazmat technician
 
