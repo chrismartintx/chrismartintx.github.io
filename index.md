@@ -1,10 +1,10 @@
 # chris martin
 ## born and raised in Texas
 ### about me
-husband, father of three, ultra marathoner, lifelong nerd who loves technology.  also into car culture, physical sciences (especially weather), progressive house, coffee, and yoga.
+husband, father of three, ultra marathoner.  i dig tech, car culture, physical sciences, music, coffee, yoga, paddleboarding, and being out in nature.
 
 ### employment
-2021 - present | [bcfs hhs](https://bcfsemd.org/) - critial information systems (WebEOC)<br/>
+2021 - present | [bcfs](https://bcfs.net/) - critial information systems<br/>
 2020 - 2021 | [juvare](https://www.juvare.com/webeoc/) - technical implementation analyst<br/>
 2018 - 2020 | [bcfs hhs](https://bcfsemd.org/) - critial information systems (WebEOC, Workday)<br/>
 2016 - 2018 | [texas department of public safety division of emergency management](https://tdem.texas.gov/) - critical information systems (WebEOC)<br/>
@@ -27,6 +27,7 @@ husband, father of three, ultra marathoner, lifelong nerd who loves technology. 
 ### favorites
 * [Tritonal](http://tritonalmusic.com)<br/>
 * [Sam Harris](https://samharris.org)<br/>
+* [Alan Watts](https://alanwatts.org/)<br/>
 * [Dan Carlin](https://www.dancarlin.com/)<br/>
 * [Techmeme](https://techmeme.com)<br/>
 * [Techmeme Ride Home](https://news.techmeme.com/180306/podcast)<br/>
@@ -37,7 +38,6 @@ husband, father of three, ultra marathoner, lifelong nerd who loves technology. 
 * [Stratfor](https://worldview.stratfor.com/)<br/>
 * [Council on Foreign Relations](https://www.cfr.org)<br/>
 * [Find What Feels Good](https://fwfg.com/)<br/>
-* [Armchair Expert](https://armchairexpertpod.com/)<br/>
 * [WeatherBrains](https://weatherbrains.com)<br/>
 * [Jalopnik](https://jalopnik.com)<br/>
 * [Wheel Bearings Podcast](https://wheelbearings.media)<br/>
