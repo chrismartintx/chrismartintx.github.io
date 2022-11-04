@@ -1,0 +1,523 @@
+<html>
+
+    <head>
+        <title>Wx - Brushy Creek</title>
+        <meta name="viewport" content="width=device-width" />
+        <link rel="shortcut icon" href="./radarscope-icon.png" />
+        <style>
+            body {
+                background-color: #1e1e1e;
+            }
+
+            p {
+                font-family: monospace;
+                font-weight: bold;
+                color: #eee;
+                margin-left: 25px;
+                padding-top: 10;
+                font-size: x-small;
+            }
+
+            a:link {
+                color: #eee;
+                text-decoration: none;
+            }
+
+            a:visited {
+                color: #eee;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: red;
+                text-decoration: none;
+            }
+
+            a:active {
+                color: #39f;
+                text-decoration: none;
+            }
+
+            .pipe {
+                color: #09f;
+            }
+
+            table {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                border-collapse: collapse;
+                border-spacing: 0;
+                display: block;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <!-- 30.509499, -97.727418 -->
+
+    <body>
+        <div id="toolbar">
+            <p>
+                <span style="color: #39f;">NWSFO</span><span class="pipe"> | </span>
+                <a href="http://www.weather.gov/AMA/" target="_blank">AMA (Amarillo)</a><span class="pipe"> | </span>
+                <a href="http://www.weather.gov/BRO/" target="_blank">BRO (Brownsville)</a><span class="pipe"> | </span>
+                <a href="http://www.weather.gov/CRP/" target="_blank">CRP (Corpus)</a><span class="pipe"> | </span>
+                <a href="http://www.weather.gov/EPZ/" target="_blank">EPZ (El Paso)</a><span class="pipe"> | </span>
+                <a href="http://www.weather.gov/ewx/" target="_blank">EWX (San Antonio)</a><span class="pipe"> | </span>
+                <a href="http://www.weather.gov/fwd/" target="_blank">FWD (Dallas)</a><span class="pipe"> | </span>
+                <a href="http://www.weather.gov/hgx/" target="_blank">HGX (Houston)</a><span class="pipe"> | </span>
+                <a href="http://www.weather.gov/LCH/" target="_blank">LCH (Lake Charles)</a><span class="pipe"> |
+                </span>
+                <a href="http://www.weather.gov/LUB/" target="_blank">LUB (Lubbock)</a><span class="pipe"> | </span>
+                <a href="http://www.weather.gov/MAF/" target="_blank">MAF (Midland)</a><span class="pipe"> | </span>
+                <a href="http://www.weather.gov/OUN/" target="_blank">OUN (Norman)</a><span class="pipe"> | </span>
+                <a href="http://www.weather.gov/SHV/" target="_blank">SHV (Shrevport)</a><span class="pipe"> | </span>
+                <a href="http://www.weather.gov/SJT/" target="_blank">SJT (San Angelo)</a>
+                <!--<span class="pipe"> | </span>-->
+                <br />
+                <span style="color: #39f;">SOUTHERN REGION</span><span class="pipe"> | </span>
+                <a href="http://www.weather.gov/srh/" target="_blank">SRH</a><span class="pipe"> | </span>
+                <a href="http://www.weather.gov/wgrfc/" target="_blank">WGRFC</a>
+                <!--<span class="pipe"> | </span>-->
+                <br />
+                <span style="color: #39f;">NOAA</span><span class="pipe"> | </span>
+                <a href="http://www.spc.noaa.gov/" target="_blank">Storm Prediction Center</a><span class="pipe"> |
+                </span>
+                <a href="https://aviationweather.gov/" target="_blank">Aviation Weather Center</a><span class="pipe"> |
+                </span>
+                <a href="https://www.cpc.ncep.noaa.gov/" target="_blank">Climate Prediction Center</a><span
+                    class="pipe"> | </span>
+                <a href="https://www.wpc.ncep.noaa.gov/#page=ovw" target="_blank">Weather Prediction Center</a><span
+                    class="pipe"> | </span>
+                <a href="http://water.weather.gov/ahps/region.php?state=tx" target="_blank">AHPS</a><span class="pipe">
+                    | </span>
+                <a href="http://www.wrh.noaa.gov/zoa/mwmap3.php?map=usa" target="_blank">National METAR/TAF</a> <span
+                    class="pipe"> | </span>
+                <a href="http://www.nhc.noaa.gov/" target="_blank">NHC</a><span class="pipe"> | </span>
+                <a href="https://inws.ncep.noaa.gov/" target="_blank">iNWS</a><span class="pipe"> | </span>
+                <a href="https://nwschat.weather.gov/live/?nomap" target="_blank">NWSChat</a>
+                <!--<span class="pipe"> | </span>-->
+                <br />
+                <span style="color: #39f;">FIRE</span><span class="pipe"> | </span>
+                <a href="http://www.srh.noaa.gov/ridge2/fire/" target="_blank">Fire Wx</a><span class="pipe"> | </span>
+                <a href="http://twc.tamu.edu/kbdi" target="_blank">TAMU KBDI</a> <span class="pipe"> | </span>
+                <a href="http://twc.tamu.edu/tfd" target="_blank">TAMU TFD</a>
+                <!--<span class="pipe"> | </span>-->
+                <br />
+                <span style="color: #39f;">MISC</span><span class="pipe"> | </span>
+                <a href="https://www.texmesonet.org/" target="_blank">TexMesonet</a><span class="pipe"> | </span>
+                <a href="https://drivetexas.org/#/11/29.5833/-98.4712?future=false&resources=traffic"
+                    target="_blank">DriveTexas</a><span class="pipe"> | </span>
+                <a href="https://weather.msfc.nasa.gov/GOES/" target="_blank">NASA GOES</a><span class="pipe"> | </span>
+                <a href="http://mp1.met.psu.edu/~fxg1/HRRRSC_CUR/comploop.html" target="_blank">HRRR</a><span
+                    class="pipe"> | </span>
+                <a href="https://hazards-fema.maps.arcgis.com/apps/webappviewer/index.html?id=8b0adb51996444d4879338b5529aa9cd"
+                    target="_blank">FEMA NFHL</a><span class="pipe"> | </span>
+                <a href="http://www.txtornado.net/weather.htm" target="_blank">TX Tornado</a>
+                <!--<span class="pipe"> | </span>-->
+                <br />
+            </p>
+        </div>
+        <details>
+            <summary>
+                <!--<a href="URL" target="_blank">TITLE</a><span class="pipe"> | </span>-->
+                <span style="color: red;">BRUSHY CREEK, TX</span> <span class="pipe"> | </span>
+                <a href="http://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=AFD&format=CI&version=1&glossary=1"
+                    target="_blank">Area Forecast Discussion</a><span class="pipe"> | </span>
+                <a href="http://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274" target="_blank">Local
+                    Forecast</a><span class="pipe"> | </span>
+                <a href="https://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274&unit=0&lg=english&FcstType=text&TextType=2"
+                    target="_blank">Printable Forecast</a><span class="pipe"> | </span>
+                <a href="https://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274&unit=0&lg=english&FcstType=text&TextType=1"
+                    target="_blank">Text Forecast</a><span class="pipe"> | </span>
+                <a href="https://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=PFM&format=CI&version=1&glossary=1"
+                    target="_blank">Point Forecasts</a><span class="pipe"> | </span>
+                <a href="https://www.weather.gov/ewx/fire" target="_blank">Local Fire Weather</a>
+                <!--<span class="pipe"> | </span>-->
+            </summary>
+            <div id="plotter">
+                <table>
+                    <tr>
+                        <td>
+                            <a href="http://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274&unit=0&lg=english&FcstType=graphical"
+                                target="_blank">
+                                <img
+                                    src="http://forecast.weather.gov/meteograms/Plotter.php?lat=30.5094&lon=-97.7274&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=0&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274&unit=0&lg=english&FcstType=graphical"
+                                target="_blank">
+                                <img
+                                    src="http://forecast.weather.gov/meteograms/Plotter.php?lat=30.5094&lon=-97.7274&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=48&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274&unit=0&lg=english&FcstType=graphical"
+                                target="_blank">
+                                <img
+                                    src="http://forecast.weather.gov/meteograms/Plotter.php?lat=30.5094&lon=-97.7274&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=96&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </details>
+        <details>
+            <summary>
+                <!--<a href="URL" target="_blank">TITLE</a><span class="pipe"> | </span>-->
+                <span style="color: red;">COLLEGE STATION, TX</span> <span class="pipe"> | </span>
+                <a href="http://forecast.weather.gov/product.php?site=HGX&issuedby=HGX&product=AFD&format=CI&version=1&glossary=1"
+                    target="_blank">Area Forecast Discussion</a><span class="pipe"> | </span>
+                <a href="http://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398" target="_blank">Local
+                    Forecast</a><span class="pipe"> | </span>
+                <a href="https://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398&unit=0&lg=english&FcstType=text&TextType=2"
+                    target="_blank">Printable Forecast</a><span class="pipe"> | </span>
+                <a href="https://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398&unit=0&lg=english&FcstType=text&TextType=1"
+                    target="_blank">Text Forecast</a><span class="pipe"> | </span>
+                <a href="https://forecast.weather.gov/product.php?site=HGX&issuedby=HGX&product=PFM&format=CI&version=1&glossary=1"
+                    target="_blank">Point Forecasts</a><span class="pipe"> | </span>
+                <a href="https://www.weather.gov/hgx/fire" target="_blank">Local Fire Weather</a>
+                <!--<span class="pipe"> | </span>-->
+            </summary>
+            <div id="plotter">
+                <table>
+                    <tr>
+                        <td>
+                            <a href="http://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398&unit=0&lg=english&FcstType=graphical"
+                                target="_blank">
+                                <img src="http://forecast.weather.gov/meteograms/Plotter.php?lat=30.6102&lon=-96.3398&wfo=HGX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=0&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398&unit=0&lg=english&FcstType=graphical"
+                                target="_blank">
+                                <img src="http://forecast.weather.gov/meteograms/Plotter.php?lat=30.6102&lon=-96.3398&wfo=HGX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=48&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398&unit=0&lg=english&FcstType=graphical"
+                                target="_blank">
+                                <img src="http://forecast.weather.gov/meteograms/Plotter.php?lat=30.6102&lon=-96.3398&wfo=HGX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=96&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </details>
+        <details>
+            <summary>
+                <!--<a href="URL" target="_blank">TITLE</a><span class="pipe"> | </span>-->
+                <span style="color: red;">SAN ANGELO, TX</span> <span class="pipe"> | </span>
+                <a href="http://forecast.weather.gov/product.php?site=SJT&issuedby=SJT&product=AFD&format=CI&version=1&glossary=1"
+                    target="_blank">Area Forecast Discussion</a><span class="pipe"> | </span>
+                <a href="http://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703" target="_blank">Local
+                    Forecast</a><span class="pipe"> | </span>
+                <a href="https://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703&unit=0&lg=english&FcstType=text&TextType=2"
+                    target="_blank">Printable Forecast</a><span class="pipe"> | </span>
+                <a href="https://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703&unit=0&lg=english&FcstType=text&TextType=1"
+                    target="_blank">Text Forecast</a><span class="pipe"> | </span>
+                <a href="https://forecast.weather.gov/product.php?site=SJT&issuedby=SJT&product=PFM&format=CI&version=1&glossary=1"
+                    target="_blank">Point Forecasts</a><span class="pipe"> | </span>
+                <a href="https://www.weather.gov/SJT/fire" target="_blank">Local Fire Weather</a>
+                <!--<span class="pipe"> | </span>-->
+            </summary>
+            <div id="plotter">
+                <table>
+                    <tr>
+                        <td>
+                            <a href="http://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703&unit=0&lg=english&FcstType=graphical"
+                                target="_blank">
+                                <img src="http://forecast.weather.gov/meteograms/Plotter.php?lat=31.2578&lon=-100.4703&wfo=SJT&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=0&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703&unit=0&lg=english&FcstType=graphical"
+                                target="_blank">
+                                <img src="http://forecast.weather.gov/meteograms/Plotter.php?lat=31.2578&lon=-100.4703&wfo=SJT&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=48&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703&unit=0&lg=english&FcstType=graphical"
+                                target="_blank">
+                                <img src="http://forecast.weather.gov/meteograms/Plotter.php?lat=31.2578&lon=-100.4703&wfo=SJT&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=96&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </details>
+        <details>
+            <summary>
+                <!--<a href="URL" target="_blank">TITLE</a><span class="pipe"> | </span>-->
+                <span style="color: red;">SHERTZ, TX</span> <span class="pipe"> | </span>
+                <a href="http://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=AFD&format=CI&version=1&glossary=1"
+                    target="_blank">Area Forecast Discussion</a><span class="pipe"> | </span>
+                <a href="http://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874" target="_blank">Local
+                    Forecast</a><span class="pipe"> | </span>
+                <a href="https://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874&unit=0&lg=english&FcstType=text&TextType=2"
+                    target="_blank">Printable Forecast</a><span class="pipe"> | </span>
+                <a href="https://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874&unit=0&lg=english&FcstType=text&TextType=1"
+                    target="_blank">Text Forecast</a><span class="pipe"> | </span>
+                <a href="https://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=PFM&format=CI&version=1&glossary=1"
+                    target="_blank">Point Forecasts</a><span class="pipe"> | </span>
+                <a href="https://www.weather.gov/ewx/fire" target="_blank">Local Fire Weather</a>
+                <!--<span class="pipe"> | </span>-->
+            </summary>
+            <div id="plotter">
+                <table>
+                    <tr>
+                        <td>
+                            <a href="http://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874&unit=0&lg=english&FcstType=graphical"
+                                target="_blank">
+                                <img src="http://forecast.weather.gov/meteograms/Plotter.php?lat=29.6151&lon=-98.2874&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=0&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874&unit=0&lg=english&FcstType=graphical"
+                                target="_blank">
+                                <img src="http://forecast.weather.gov/meteograms/Plotter.php?lat=29.6151&lon=-98.2874&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=48&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874&unit=0&lg=english&FcstType=graphical"
+                                target="_blank">
+                                <img src="http://forecast.weather.gov/meteograms/Plotter.php?lat=29.6151&lon=-98.2874&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=96&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </details>
+        <div id="forecast">
+            <table>
+                <tr>
+                    <td>
+                        <a href="http://www.weather.gov/forecastmaps" target="_blank">
+                            <img src="http://www.wpc.ncep.noaa.gov//noaa/noaa.gif">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="satellite">
+            <table>
+                <tr>
+                    <td>
+                        <a href="http://www.goes.noaa.gov/dml/comp/goes/ceus/rb.html" target="_blank">
+                            <img src="http://www.ssd.noaa.gov/goes/comp/ceus/rb.jpg">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="http://www.goes.noaa.gov/dml/comp/goes/ceus/wv.html" target="_blank">
+                            <img src="http://www.ssd.noaa.gov/goes/comp/ceus/wv.jpg">
+                    </td>
+                    <td>
+                        <a href="http://www.goes.noaa.gov/dml/comp/goes/ceus/vis.html" target="_blank">
+                            <img src="http://www.ssd.noaa.gov/goes/comp/ceus/vis.jpg">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <a href="http://www.atmo.arizona.edu/products/wximagery/500mbwv.html" target="_blank">
+                            <img src="http://www.atmo.arizona.edu/gifs/WV500MB.GIF">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- <div id="radar">
+            <table>
+                <tr>
+                    <td>
+                        <a href="http://radar.weather.gov/radar.php?rid=FDX" target="_blank">
+                            <img src="http://radar.weather.gov/lite/N0R/FDX_loop.gif">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="http://radar.weather.gov/radar.php?rid=AMA" target="_blank">
+                            <img src="http://radar.weather.gov/lite/N0R/AMA_loop.gif">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="http://radar.weather.gov/radar.php?rid=LBB" target="_blank">
+                            <img src="http://radar.weather.gov/lite/N0R/LBB_loop.gif">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://radar.weather.gov/radar.php?rid=FDR" target="_blank">
+                            <img src="http://radar.weather.gov/lite/N0R/FDR_loop.gif">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="http://radar.weather.gov/radar.php?rid=DYX" target="_blank">
+                            <img src="http://radar.weather.gov/lite/N0R/DYX_loop.gif">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="http://radar.weather.gov/radar.php?rid=FWS" target="_blank">
+                            <img src="http://radar.weather.gov/lite/N0R/FWS_loop.gif">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://radar.weather.gov/radar.php?rid=EPZ" target="_blank">
+                            <img src="http://radar.weather.gov/lite/N0R/EPZ_loop.gif">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="http://radar.weather.gov/radar.php?rid=MAF" target="_blank">
+                            <img src="http://radar.weather.gov/lite/N0R/MAF_loop.gif">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="http://radar.weather.gov/radar.php?rid=SJT" target="_blank">
+                            <img src="http://radar.weather.gov/lite/N0R/SJT_loop.gif">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://radar.weather.gov/radar.php?rid=GRK" target="_blank">
+                            <img src="http://radar.weather.gov/lite/N0R/GRK_loop.gif">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="http://radar.weather.gov/radar.php?rid=EWX" target="_blank">
+                            <img src="http://radar.weather.gov/lite/N0R/EWX_loop.gif">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="http://radar.weather.gov/radar.php?rid=HGX" target="_blank">
+                            <img src="http://radar.weather.gov/lite/N0R/HGX_loop.gif">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://radar.weather.gov/radar.php?rid=DFX" target="_blank">
+                            <img src="http://radar.weather.gov/lite/N0R/DFX_loop.gif">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="http://radar.weather.gov/radar.php?rid=CRP" target="_blank">
+                            <img src="http://radar.weather.gov/lite/N0R/CRP_loop.gif">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="http://radar.weather.gov/radar.php?rid=BRO" target="_blank">
+                            <img src="http://radar.weather.gov/lite/N0R/BRO_loop.gif">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://radar.weather.gov/radar.php?rid=SHV" target="_blank">
+                            <img src="http://radar.weather.gov/lite/N0R/SHV_loop.gif">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="http://radar.weather.gov/radar.php?rid=POE" target="_blank">
+                            <img src="http://radar.weather.gov/lite/N0R/POE_loop.gif">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="http://radar.weather.gov/radar.php?rid=LCH" target="_blank">
+                            <img src="http://radar.weather.gov/lite/N0R/LCH_loop.gif">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div> -->
+        <div id="warnings">
+            <table>
+                <tr>
+                    <td>
+                        <a href="http://www.weather.gov/" target="_blank">
+                            <img src="http://forecast.weather.gov/wwamap/png/US.png">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="spc">
+            <table>
+                <tr>
+                    <td>
+                        <a href="http://www.spc.noaa.gov/products/outlook/day1otlk.html" target="_blank">
+                            <img src="http://www.spc.noaa.gov/products/outlook/day1otlk_1630.gif">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="http://www.spc.noaa.gov/products/outlook/day2otlk.html" target="_blank">
+                            <img src="http://www.spc.noaa.gov/products/outlook/day2otlk_1730.gif">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="http://www.spc.noaa.gov/products/outlook/day3otlk.html" target="_blank">
+                            <img src="http://www.spc.noaa.gov/products/outlook/day3otlk_0830.gif">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="http://www.spc.noaa.gov/products/exper/day4-8/" target="_blank">
+                            <img src="http://www.spc.noaa.gov/products/exper/day4-8/day48prob.gif">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="fire">
+            <table>
+                <tr>
+                    <td>
+                        <a href="http://www.spc.noaa.gov/products/fire_wx/fwdy1.html" target="_blank">
+                            <img src="http://www.spc.noaa.gov/products/fire_wx/day1otlk_fire.gif">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="http://www.spc.noaa.gov/products/fire_wx/fwdy2.html" target="_blank">
+                            <img src="http://www.spc.noaa.gov/products/fire_wx/day2otlk_fire.gif">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="http://www.spc.noaa.gov/products/exper/fire_wx/" target="_blank">
+                            <img src="http://www.spc.noaa.gov/products/exper/fire_wx/imgs/day38otlk_fire.gif">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <a href="http://texasforestservice.tamu.edu/TexasBurnBans/" target="_blank">
+                            <img src="http://tfsfrp.tamu.edu/wildfires/DecBan.png">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="tropical">
+            <table>
+                <tr>
+                    <td>
+                        <a href="http://www.nhc.noaa.gov/?atlc" target="_blank">
+                            <img src="http://www.nhc.noaa.gov/xgtwo/two_atl_2d0.png">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="http://www.nhc.noaa.gov/?epac" target="_blank">
+                            <img src="http://www.nhc.noaa.gov/xgtwo/two_pac_2d0.png">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="http://www.nhc.noaa.gov/?epac" target="_blank">
+                            <img src="http://www.nhc.noaa.gov/xgtwo/two_cpac_2d0.png">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+    <html>
