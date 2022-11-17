@@ -26,13 +26,13 @@ husband, father of three, ultra marathoner.  i dig tech, car culture, physical s
 
 ### favorites
 * [Tritonal](http://tritonalmusic.com)<br/>
+* [This Week in Tech](https://twit.tv)<br/>
+* [Techmeme](https://techmeme.com)<br/>
+* [Techmeme Ride Home](https://news.techmeme.com/180306/podcast)<br/>
 * [Sam Harris](https://samharris.org)<br/>
 * [Alan Watts](https://alanwatts.org/)<br/>
 * [Dan Carlin](https://www.dancarlin.com/)<br/>
-* [Techmeme](https://techmeme.com)<br/>
-* [Techmeme Ride Home](https://news.techmeme.com/180306/podcast)<br/>
 * [the cyberwire](https://thecyberwire.com)<br/>
-* [This Week in Tech](https://twit.tv)<br/>
 * [Darknet Diaries](https://darknetdiaries.com/)<br/>
 * [This Week in Science](https://www.twis.org/)<br/>
 * [Stratfor](https://worldview.stratfor.com/)<br/>
