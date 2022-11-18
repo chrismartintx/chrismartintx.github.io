@@ -1,7 +1,7 @@
 # chris martin
 ## born and raised in Texas
 ### about me
-husband, father of three, ultra marathoner.  i dig tech, car culture, physical sciences, music, coffee, yoga, paddleboarding, and being out in nature.
+father of three, nerd.  hope to be back to ultramarathon status soon.  i dig tech, car culture, physical sciences, music, coffee, yoga, paddleboarding, and being out in nature.  
 
 ### employment
 2021 - present | [bcfs](https://bcfs.net/) - critial information systems<br/>
@@ -42,3 +42,4 @@ husband, father of three, ultra marathoner.  i dig tech, car culture, physical s
 * [Jalopnik](https://jalopnik.com)<br/>
 * [Wheel Bearings Podcast](https://wheelbearings.media)<br/>
 * [Fireside Conference](https://firesideconf.com)<br/>
+* <a rel="me" href="https://twit.social/@chrismartintx">Mastodon</a>
