@@ -1,5 +1,5 @@
 ### me
-born and raised in Texas.  father of three, nerd, runner... hope to be back to ultramarathon status soon.  i dig tech, car culture, physical sciences, progress house 🎶, yoga, paddleboarding, and being out in the trees.
+born and raised in Texas.  father of three, nerd, runner... hope to be back to ultramarathon status soon.  i dig tech, car culture, physical sciences, progressive house music, yoga, paddleboarding, and being out in the trees.
 
 ### employment
 2021 - present | [FirstDay Foundation](https://firstday.foundation/) - IT/Critical Information Systems<br/>
