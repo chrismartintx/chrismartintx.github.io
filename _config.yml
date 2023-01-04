@@ -1,4 +1,3 @@
-#remote-theme: knhash/jekyllBear
-theme: jekyll-theme-minimal
+remote-theme: knhash/jekyllBear
+# theme: jekyll-theme-minimal
 title: chris martin
-description: me in nutshell... or webpage
