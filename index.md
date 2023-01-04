@@ -4,13 +4,13 @@
 father of three, nerd, runner... hope to be back to ultramarathon status soon.  i dig tech, car culture, physical sciences, progress house 🎶, yoga, paddleboarding, and being out in the trees.
 
 ### employment
-2021 - present | [FirstDay Foundation](https://firstday.foundation/) : it/critical information systems<br/>
-2020 - 2021 | [Juvare](https://www.juvare.com/webeoc/) : technical implementation analyst<br/>
-2018 - 2020 | [BCFS HHS EMD (now know as National EMR)](https://nationalemr.us/) : critial information systems (WebEOC, Workday)<br/>
-2016 - 2018 | [TXDPS/TDEM](https://tdem.texas.gov/) : critical information systems (WebEOC)<br/>
-2007 - 2018 | [Texas A&M Task Force 1](https://texastaskforce1.org/) : technical search specialist, swift water rescue<br/>
-2015 - 2016 | [Brazos County](http://brazosceoc.org) : deputy emergency management coordinator<br/>
-2003 - 2015 | [Bryan Fire Department](https://www.bryantx.gov/fire/) : aerial apparatus operator, paramedic, technical rescue team, hazmat technician
+2021 - present | [FirstDay Foundation](https://firstday.foundation/) : IT/Critical Information Systems<br/>
+2020 - 2021 | [Juvare](https://www.juvare.com/webeoc/) : Technical Implementation Analyst<br/>
+2018 - 2020 | [BCFS HHS EMD (now know as National EMR)](https://nationalemr.us/) : Critical Information Systems (WebEOC, Workday)<br/>
+2016 - 2018 | [TXDPS/TDEM](https://tdem.texas.gov/) : Critical Information Systems (WebEOC)<br/>
+2007 - 2018 | [Texas A&M Task Force 1](https://texastaskforce1.org/) : Technical Search Specialist, Swiftwater rescue<br/>
+2015 - 2016 | [Brazos County](http://brazosceoc.org) : Deputy Emergency Management Coordinator<br/>
+2003 - 2015 | [Bryan Fire Department](https://www.bryantx.gov/fire/) : Aerial Apparatus Operator, Paramedic, Technical rescue team, HAZMAT Technician
 
 ### education
 * my family... thanks padre<br/>
