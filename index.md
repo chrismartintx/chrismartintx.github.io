@@ -1,16 +1,16 @@
 # chris martin
 ## born and raised in Texas
 ### about me
-father of three, nerd.  hope to be back to ultramarathon status soon.  i dig tech, car culture, physical sciences, music, coffee, yoga, paddleboarding, and being out in nature.  
+father of three, nerd, runner... hope to be back to ultramarathon status soon.  i dig tech, car culture, physical sciences, progress house 🎶, yoga, paddleboarding, and being out in the trees.
 
 ### employment
-2021 - present | [bcfs](https://bcfs.net/) - critial information systems<br/>
-2020 - 2021 | [juvare](https://www.juvare.com/webeoc/) - technical implementation analyst<br/>
-2018 - 2020 | [bcfs hhs](https://bcfsemd.org/) - critial information systems (WebEOC, Workday)<br/>
-2016 - 2018 | [texas department of public safety division of emergency management](https://tdem.texas.gov/) - critical information systems (WebEOC)<br/>
-2007 - 2018 | [texas a&m task force 1](https://texastaskforce1.org/) - technical search specialist, swift water rescue<br/>
-2015 - 2016 | [brazos county](http://brazosceoc.org) - deputy emergency management coordinator<br/>
-2003 - 2015 | [bryan fire department](https://www.bryantx.gov/fire/) - aerial apparatus operator, paramedic, technical rescue team, hazmat technician
+2021 - present | [firstday foundation](https://firstday.foundation/) : it/critical information systems<br/>
+2020 - 2021 | [juvare](https://www.juvare.com/webeoc/) : technical implementation analyst<br/>
+2018 - 2020 | [bcfs hhs (now know as national emr)](https://nationalemr.us/) : critial information systems (WebEOC, Workday)<br/>
+2016 - 2018 | [texas department of public safety/division of emergency management](https://tdem.texas.gov/) : critical information systems (WebEOC)<br/>
+2007 - 2018 | [texas a&m task force 1](https://texastaskforce1.org/) : technical search specialist, swift water rescue<br/>
+2015 - 2016 | [brazos county](http://brazosceoc.org) : deputy emergency management coordinator<br/>
+2003 - 2015 | [bryan fire department](https://www.bryantx.gov/fire/) : aerial apparatus operator, paramedic, technical rescue team, hazmat technician
 
 ### education
 * my family... thanks padre<br/>
