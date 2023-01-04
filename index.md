@@ -4,23 +4,23 @@
 father of three, nerd, runner... hope to be back to ultramarathon status soon.  i dig tech, car culture, physical sciences, progress house 🎶, yoga, paddleboarding, and being out in the trees.
 
 ### employment
-2021 - present | [firstday foundation](https://firstday.foundation/) : it/critical information systems<br/>
-2020 - 2021 | [juvare](https://www.juvare.com/webeoc/) : technical implementation analyst<br/>
-2018 - 2020 | [bcfs hhs (now know as national emr)](https://nationalemr.us/) : critial information systems (WebEOC, Workday)<br/>
-2016 - 2018 | [texas department of public safety/division of emergency management](https://tdem.texas.gov/) : critical information systems (WebEOC)<br/>
-2007 - 2018 | [texas a&m task force 1](https://texastaskforce1.org/) : technical search specialist, swift water rescue<br/>
-2015 - 2016 | [brazos county](http://brazosceoc.org) : deputy emergency management coordinator<br/>
-2003 - 2015 | [bryan fire department](https://www.bryantx.gov/fire/) : aerial apparatus operator, paramedic, technical rescue team, hazmat technician
+2021 - present | [FirstDay Foundation](https://firstday.foundation/) : it/critical information systems<br/>
+2020 - 2021 | [Juvare](https://www.juvare.com/webeoc/) : technical implementation analyst<br/>
+2018 - 2020 | [BCFS HHS EMD (now know as National EMR)](https://nationalemr.us/) : critial information systems (WebEOC, Workday)<br/>
+2016 - 2018 | [TXDPS/TDEM](https://tdem.texas.gov/) : critical information systems (WebEOC)<br/>
+2007 - 2018 | [Texas A&M Task Force 1](https://texastaskforce1.org/) : technical search specialist, swift water rescue<br/>
+2015 - 2016 | [Brazos County](http://brazosceoc.org) : deputy emergency management coordinator<br/>
+2003 - 2015 | [Bryan Fire Department](https://www.bryantx.gov/fire/) : aerial apparatus operator, paramedic, technical rescue team, hazmat technician
 
 ### education
 * my family... thanks padre<br/>
-* [texas a&m engineering extension service](https://www.teex.org) - firefighting (recruit class #110), paramedic, hazmat, technical rescue, incident command<br/>
+* [Texas A&M Engineering Extension Service](https://www.teex.org) - firefighting (recruit class #110), paramedic, hazmat, technical rescue, incident command<br/>
 * long list of supervisors and coworkers that believed in me<br/>
 * you broke it? fix it!
 
 ### influences
 * masonry - [Austin No. 12](http://austinlodge12.com), Grand Lodge of Texas A.F. & A.M.<br/>
-* boy scouts<br/>
+* Boy Scouts<br/>
 * taekwondo<br/>
 * being told no
 
