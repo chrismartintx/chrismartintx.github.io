@@ -1,7 +1,6 @@
-# chris martin
-## born and raised in Texas
+## chris martin
 ### about me
-father of three, nerd, runner... hope to be back to ultramarathon status soon.  i dig tech, car culture, physical sciences, progress house 🎶, yoga, paddleboarding, and being out in the trees.
+born and raised in Texas.  father of three, nerd, runner... hope to be back to ultramarathon status soon.  i dig tech, car culture, physical sciences, progress house 🎶, yoga, paddleboarding, and being out in the trees.
 
 ### employment
 2021 - present | [FirstDay Foundation](https://firstday.foundation/) - IT/Critical Information Systems<br/>
@@ -42,4 +41,5 @@ father of three, nerd, runner... hope to be back to ultramarathon status soon.  
 * [Jalopnik](https://jalopnik.com)
 * [Wheel Bearings Podcast](https://wheelbearings.media)
 * [Fireside Conference](https://firesideconf.com)
-* <a rel="me" href="https://twit.social/@chrismartintx">Mastodon</a>
+* <a rel="me" href="https://twit.social/@chrismartintx">Mastodon 🦣</a>
+* <a href="mailto:chris@chrismartintx.dev">📧</a>
