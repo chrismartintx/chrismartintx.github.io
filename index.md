@@ -14,8 +14,8 @@ father of three, nerd, runner... hope to be back to ultramarathon status soon.  
 
 ### education
 * my family... thanks padre<br/>
-* [Texas A&M Engineering Extension Service](https://www.teex.org) - firefighting (recruit class #110), paramedic, hazmat, technical rescue, incident command<br/>
-* long list of supervisors and coworkers that believed in me<br/>
+* [Texas A&M Engineering Extension Service](https://www.teex.org) - firefighting (recruit class #110), paramedic, HAZMAT, technical rescue, incident command
+* long list of supervisors and coworkers that believed in me
 * you broke it? fix it!
 
 ### influences
