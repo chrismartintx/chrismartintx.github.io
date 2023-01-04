@@ -1,5 +1,4 @@
-## chris martin
-### about me
+### me
 born and raised in Texas.  father of three, nerd, runner... hope to be back to ultramarathon status soon.  i dig tech, car culture, physical sciences, progress house 🎶, yoga, paddleboarding, and being out in the trees.
 
 ### employment
