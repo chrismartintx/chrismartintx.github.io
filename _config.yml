@@ -1,2 +1,7 @@
 #theme: jekyll-theme-minimal
 remote-theme:  knhash/jekyllBear
+title: null
+social:
+  name: Chris Martin
+  links:
+    - https://twit.social/@chrismartintx
