@@ -1,5 +1,5 @@
 ### me
-born and raised in Texas.  father of three, nerd, runner... hope to be back to ultramarathon status soon.  i dig tech, car culture, physical sciences, progressive house music, yoga, paddleboarding, and being out in the trees.
+born and raised in Texas.  father of three, nerd, and occasional ultramarathon runner.  i dig tech, car culture, physical sciences, prog house, yoga, water, and sunshine.
 
 ### employment
 2021 - present | [FirstDay Foundation](https://firstday.foundation/) - IT/Critical Information Systems<br/>
@@ -17,7 +17,7 @@ born and raised in Texas.  father of three, nerd, runner... hope to be back to u
 * you broke it? fix it!
 
 ### influences
-* masonry - [Austin No. 12](http://austinlodge12.com), Grand Lodge of Texas A.F. & A.M.<br/>
+* [Austin No. 12](http://austinlodge12.com), Grand Lodge of Texas A.F. & A.M.<br/>
 * Boy Scouts<br/>
 * taekwondo<br/>
 * being told no
