@@ -1,4 +1,4 @@
-### me
+### about me
 born and raised in Texas.  father of three, nerd, and occasional ultramarathon runner.  i dig tech, car culture, physical sciences, prog house, yoga, water, and sunshine.
 
 ### employment
