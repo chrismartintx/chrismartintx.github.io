@@ -5,7 +5,7 @@ born and raised in Texas.  father of three, nerd, and occasional ultramarathon r
 2021 - present | [FirstDay Foundation](https://firstday.foundation/) - IT/Critical Information Systems<br/>
 2020 - 2021 | [Juvare](https://www.juvare.com/webeoc/) - Technical Implementation Analyst<br/>
 2018 - 2020 | [BCFS HHS EMD (now National EMR)](https://nationalemr.us/) - Critical Information Systems (WebEOC, Workday)<br/>
-2016 - 2018 | [TXDPS/TDEM](https://tdem.texas.gov/) - Critical Information Systems (WebEOC)<br/>
+2016 - 2018 | [TDEM](https://tdem.texas.gov/) - Critical Information Systems (WebEOC)<br/>
 2007 - 2018 | [Texas A&M Task Force 1](https://texastaskforce1.org/) - Technical Search Specialist, Swiftwater rescue<br/>
 2015 - 2016 | [Brazos County](http://brazosceoc.org) - Deputy Emergency Management Coordinator<br/>
 2003 - 2015 | [Bryan Fire Department](https://www.bryantx.gov/fire/) - Aerial Apparatus Operator, Paramedic, Technical rescue team, HAZMAT Technician
@@ -18,8 +18,8 @@ born and raised in Texas.  father of three, nerd, and occasional ultramarathon r
 
 ### influences
 * [Austin No. 12](http://austinlodge12.com), Grand Lodge of Texas A.F. & A.M.<br/>
-* Boy Scouts<br/>
-* taekwondo<br/>
+* Boy Scouts
+* taekwondo
 * being told no
 
 ### favorites
