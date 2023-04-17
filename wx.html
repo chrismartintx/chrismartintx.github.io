@@ -2,59 +2,20 @@
 
     <head>
         <title>Wx</title>
-        <!-- <meta name="viewport" content="initial-scale=1.0" /> -->
+        <meta name="viewport" content="initial-scale=1.0" />
         <link rel="shortcut icon" href="../radarscope-icon.png" />
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <style>
-            body {
-/*                 background-color: #121212; */
-                text-align: center;
-            }
-
-/*             p,
-            summary {
-                font-family: monospace;
-                font-weight: bold;
-                color: #eee;
-                margin-left: 25px;
-                padding-top: 10;
-            } */
-
-/*             a:link {
-                color: #eee;
-                text-decoration: none;
-            }
-
-            a:visited {
-                color: #eee;
-                text-decoration: none;
-            }
-
-            a:hover {
-                color: red;
-                text-decoration: none;
-            } */
-/* 
-            a:active {
-                color: #39f;
-                text-decoration: none;
-            }
-
-            .pipe {
-                color: #09f;
-            } */
-
             img {
                 width: 815px;
             }
         </style>
     </head>
-    <!-- 30.509499, -97.727418 -->
 
     <body>
 
         <div class="w3-bar w3-light-grey">
-            <!-- <a href="#" class="w3-bar-item w3-button">Home</a> -->
+            <a href="#" class="w3-bar-item w3-button">HOME</a>
             <div class="w3-dropdown-hover">
                 <button class="w3-button">NWSWFO</button>
                 <div class="w3-dropdown-content w3-bar-block w3-card-4">
@@ -142,61 +103,93 @@
             <div class="w3-dropdown-hover">
                 <button class="w3-button">BRUSHY CREEK</button>
                 <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                    <button onclick="myFunction('locationBrushyCreek')" class="w3-btn w3-block w3-red">Meteogram</button>
-                    <a href="http://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=AFD&format=CI&version=1&glossary=1" target="_blank" class="w3-bar-item w3-button">Area Forecast Discussion</a>
-                    <a href="http://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274" target="_blank" class="w3-bar-item w3-button">Local Forecast</a>
-                    <a href="https://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274&unit=0&lg=english&FcstType=text&TextType=2" target="_blank" class="w3-bar-item w3-button">Printable Forecast</a>
-                    <a href="https://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274&unit=0&lg=english&FcstType=text&TextType=1" target="_blank" class="w3-bar-item w3-button">Text Forecast</a>
-                    <a href="https://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=PFM&format=CI&version=1&glossary=1" target="_blank" class="w3-bar-item w3-button">Point Forecasts</a>
-                    <a href="https://www.weather.gov/ewx/fire" target="_blank" class="w3-bar-item w3-button">Local Fire Weather</a>
+                    <button onclick="myFunction('locationBrushyCreek')"
+                        class="w3-btn w3-block w3-red">Meteogram</button>
+                    <a href="http://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=AFD&format=CI&version=1&glossary=1"
+                        target="_blank" class="w3-bar-item w3-button">Area Forecast Discussion</a>
+                    <a href="http://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274" target="_blank"
+                        class="w3-bar-item w3-button">Local Forecast</a>
+                    <a href="https://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274&unit=0&lg=english&FcstType=text&TextType=2"
+                        target="_blank" class="w3-bar-item w3-button">Printable Forecast</a>
+                    <a href="https://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274&unit=0&lg=english&FcstType=text&TextType=1"
+                        target="_blank" class="w3-bar-item w3-button">Text Forecast</a>
+                    <a href="https://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=PFM&format=CI&version=1&glossary=1"
+                        target="_blank" class="w3-bar-item w3-button">Point Forecasts</a>
+                    <a href="https://www.weather.gov/ewx/fire" target="_blank" class="w3-bar-item w3-button">Local Fire
+                        Weather</a>
                 </div>
             </div>
             <div class="w3-dropdown-hover">
                 <button class="w3-button">SAN MARCOS</button>
                 <div class="w3-dropdown-content w3-bar-block w3-card-4">
                     <button onclick="myFunction('locationSanMarcos')" class="w3-btn w3-block w3-red">Meteogram</button>
-                    <a href="http://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=AFD&format=CI&version=1&glossary=1" target="_blank" class="w3-bar-item w3-button">Area Forecast Discussion</a>
-                    <a href="http://forecast.weather.gov/MapClick.php?lat=29.9340&lon=-98.0677" target="_blank" class="w3-bar-item w3-button">Local Forecast</a>
-                    <a href="https://forecast.weather.gov/MapClick.php?lat=29.9340&lon=-98.0677&unit=0&lg=english&FcstType=text&TextType=2" target="_blank" class="w3-bar-item w3-button">Printable Forecast</a>
-                    <a href="https://forecast.weather.gov/MapClick.php?lat=29.9340&lon=-98.0677&unit=0&lg=english&FcstType=text&TextType=1" target="_blank" class="w3-bar-item w3-button">Text Forecast</a>
-                    <a href="https://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=PFM&format=CI&version=1&glossary=1" target="_blank" class="w3-bar-item w3-button">Point Forecasts</a>
-                    <a href="https://www.weather.gov/ewx/fire" target="_blank" class="w3-bar-item w3-button">Local Fire Weather</a>
+                    <a href="http://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=AFD&format=CI&version=1&glossary=1"
+                        target="_blank" class="w3-bar-item w3-button">Area Forecast Discussion</a>
+                    <a href="http://forecast.weather.gov/MapClick.php?lat=29.9340&lon=-98.0677" target="_blank"
+                        class="w3-bar-item w3-button">Local Forecast</a>
+                    <a href="https://forecast.weather.gov/MapClick.php?lat=29.9340&lon=-98.0677&unit=0&lg=english&FcstType=text&TextType=2"
+                        target="_blank" class="w3-bar-item w3-button">Printable Forecast</a>
+                    <a href="https://forecast.weather.gov/MapClick.php?lat=29.9340&lon=-98.0677&unit=0&lg=english&FcstType=text&TextType=1"
+                        target="_blank" class="w3-bar-item w3-button">Text Forecast</a>
+                    <a href="https://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=PFM&format=CI&version=1&glossary=1"
+                        target="_blank" class="w3-bar-item w3-button">Point Forecasts</a>
+                    <a href="https://www.weather.gov/ewx/fire" target="_blank" class="w3-bar-item w3-button">Local Fire
+                        Weather</a>
                 </div>
             </div>
             <div class="w3-dropdown-hover">
                 <button class="w3-button">SAN ANGELO</button>
                 <div class="w3-dropdown-content w3-bar-block w3-card-4">
                     <button onclick="myFunction('locationSanAngelo')" class="w3-btn w3-block w3-red">Meteogram</button>
-                    <a href="http://forecast.weather.gov/product.php?site=SJT&issuedby=SJT&product=AFD&format=CI&version=1&glossary=1" target="_blank" class="w3-bar-item w3-button">Area Forecast Discussion</a>
-                <a href="http://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703" target="_blank" class="w3-bar-item w3-button">Local Forecast</a>
-                <a href="https://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703&unit=0&lg=english&FcstType=text&TextType=2" target="_blank" class="w3-bar-item w3-button">Printable Forecast</a>
-                <a href="https://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703&unit=0&lg=english&FcstType=text&TextType=1" target="_blank" class="w3-bar-item w3-button">Text Forecast</a>
-                <a href="https://forecast.weather.gov/product.php?site=SJT&issuedby=SJT&product=PFM&format=CI&version=1&glossary=1" target="_blank" class="w3-bar-item w3-button">Point Forecasts</a>
-                <a href="https://www.weather.gov/SJT/fire" target="_blank" class="w3-bar-item w3-button">Local Fire Weather</a>
+                    <a href="http://forecast.weather.gov/product.php?site=SJT&issuedby=SJT&product=AFD&format=CI&version=1&glossary=1"
+                        target="_blank" class="w3-bar-item w3-button">Area Forecast Discussion</a>
+                    <a href="http://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703" target="_blank"
+                        class="w3-bar-item w3-button">Local Forecast</a>
+                    <a href="https://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703&unit=0&lg=english&FcstType=text&TextType=2"
+                        target="_blank" class="w3-bar-item w3-button">Printable Forecast</a>
+                    <a href="https://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703&unit=0&lg=english&FcstType=text&TextType=1"
+                        target="_blank" class="w3-bar-item w3-button">Text Forecast</a>
+                    <a href="https://forecast.weather.gov/product.php?site=SJT&issuedby=SJT&product=PFM&format=CI&version=1&glossary=1"
+                        target="_blank" class="w3-bar-item w3-button">Point Forecasts</a>
+                    <a href="https://www.weather.gov/SJT/fire" target="_blank" class="w3-bar-item w3-button">Local Fire
+                        Weather</a>
                 </div>
             </div>
             <div class="w3-dropdown-hover">
                 <button class="w3-button">SHERTZ</button>
                 <div class="w3-dropdown-content w3-bar-block w3-card-4">
                     <button onclick="myFunction('locationSchertz')" class="w3-btn w3-block w3-red">Meteogram</button>
-                    <a href="http://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=AFD&format=CI&version=1&glossary=1" target="_blank" class="w3-bar-item w3-button">Area Forecast Discussion</a>
-                    <a href="http://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874" target="_blank" class="w3-bar-item w3-button">Local Forecast</a>
-                    <a href="https://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874&unit=0&lg=english&FcstType=text&TextType=2" target="_blank" class="w3-bar-item w3-button">Printable Forecast</a>
-                    <a href="https://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874&unit=0&lg=english&FcstType=text&TextType=1" target="_blank" class="w3-bar-item w3-button">Text Forecast</a>
-                    <a href="https://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=PFM&format=CI&version=1&glossary=1" target="_blank" class="w3-bar-item w3-button">Point Forecasts</a>
-                    <a href="https://www.weather.gov/ewx/fire" target="_blank" class="w3-bar-item w3-button">Local Fire Weather</a>
+                    <a href="http://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=AFD&format=CI&version=1&glossary=1"
+                        target="_blank" class="w3-bar-item w3-button">Area Forecast Discussion</a>
+                    <a href="http://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874" target="_blank"
+                        class="w3-bar-item w3-button">Local Forecast</a>
+                    <a href="https://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874&unit=0&lg=english&FcstType=text&TextType=2"
+                        target="_blank" class="w3-bar-item w3-button">Printable Forecast</a>
+                    <a href="https://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874&unit=0&lg=english&FcstType=text&TextType=1"
+                        target="_blank" class="w3-bar-item w3-button">Text Forecast</a>
+                    <a href="https://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=PFM&format=CI&version=1&glossary=1"
+                        target="_blank" class="w3-bar-item w3-button">Point Forecasts</a>
+                    <a href="https://www.weather.gov/ewx/fire" target="_blank" class="w3-bar-item w3-button">Local Fire
+                        Weather</a>
                 </div>
             </div>
             <div class="w3-dropdown-hover">
                 <button class="w3-button">COLLEGE STATION</button>
                 <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                    <button onclick="myFunction('locationCollegeStation')" class="w3-btn w3-block w3-red">Meteogram</button>
-                    <a href="http://forecast.weather.gov/product.php?site=HGX&issuedby=HGX&product=AFD&format=CI&version=1&glossary=1" target="_blank" class="w3-bar-item w3-button">Area Forecast Discussion</a>
-                <a href="http://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398" target="_blank" class="w3-bar-item w3-button">Local Forecast</a>
-                <a href="https://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398&unit=0&lg=english&FcstType=text&TextType=2" target="_blank" class="w3-bar-item w3-button">Printable Forecast</a>
-                <a href="https://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398&unit=0&lg=english&FcstType=text&TextType=1" target="_blank" class="w3-bar-item w3-button">Text Forecast</a>
-                <a href="https://forecast.weather.gov/product.php?site=HGX&issuedby=HGX&product=PFM&format=CI&version=1&glossary=1" target="_blank" class="w3-bar-item w3-button">Point Forecasts</a>
-                <a href="https://www.weather.gov/hgx/fire" target="_blank" class="w3-bar-item w3-button">Local Fire Weather</a>
+                    <button onclick="myFunction('locationCollegeStation')"
+                        class="w3-btn w3-block w3-red">Meteogram</button>
+                    <a href="http://forecast.weather.gov/product.php?site=HGX&issuedby=HGX&product=AFD&format=CI&version=1&glossary=1"
+                        target="_blank" class="w3-bar-item w3-button">Area Forecast Discussion</a>
+                    <a href="http://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398" target="_blank"
+                        class="w3-bar-item w3-button">Local Forecast</a>
+                    <a href="https://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398&unit=0&lg=english&FcstType=text&TextType=2"
+                        target="_blank" class="w3-bar-item w3-button">Printable Forecast</a>
+                    <a href="https://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398&unit=0&lg=english&FcstType=text&TextType=1"
+                        target="_blank" class="w3-bar-item w3-button">Text Forecast</a>
+                    <a href="https://forecast.weather.gov/product.php?site=HGX&issuedby=HGX&product=PFM&format=CI&version=1&glossary=1"
+                        target="_blank" class="w3-bar-item w3-button">Point Forecasts</a>
+                    <a href="https://www.weather.gov/hgx/fire" target="_blank" class="w3-bar-item w3-button">Local Fire
+                        Weather</a>
                 </div>
             </div>
         </div>
@@ -204,153 +197,177 @@
             <header class="w3-container w3-dark-gray">
                 <h3>Brushy Creek</h3>
             </header>
-                    <table>
-                        <tr>
-                            <td>
-                                <a href="http://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274&unit=0&lg=english&FcstType=graphical"
-                                    target="_blank">
-                                    <img
-                                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=30.5094&lon=-97.7274&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=0&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
-                                </a>
-                            </td>
-                            <td>
-                                <a href="http://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274&unit=0&lg=english&FcstType=graphical"
-                                    target="_blank">
-                                    <img
-                                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=30.5094&lon=-97.7274&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=48&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
-                                </a>
-                            </td>
-                            <td>
-                                <a href="http://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274&unit=0&lg=english&FcstType=graphical"
-                                    target="_blank">
-                                    <img
-                                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=30.5094&lon=-97.7274&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=96&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
-                                </a>
-                            </td>
-                        </tr>
-                    </table>
+            <header class="w3-container w3-dark-gray">
+                <h6>0-48 hours</h6>
+            </header>
+            <div class="w3-container w3-center">
+                <a href="http://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274&unit=0&lg=english&FcstType=graphical"
+                    target="_blank">
+                    <img
+                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=30.5094&lon=-97.7274&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=0&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                </a>
+            </div>
+            <div class="w3-container w3-center">
+                <header class="w3-container w3-dark-gray">
+                    <h6>48-96 hours</h6>
+                </header>
+                <a href="http://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274&unit=0&lg=english&FcstType=graphical"
+                    target="_blank">
+                    <img
+                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=30.5094&lon=-97.7274&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=48&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                </a>
+            </div>
+            <div class="w3-container w3-center">
+                <header class="w3-container w3-dark-gray">
+                    <h6>96-144 hours</h6>
+                </header>
+                <a href="http://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274&unit=0&lg=english&FcstType=graphical"
+                    target="_blank">
+                    <img
+                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=30.5094&lon=-97.7274&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=96&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                </a>
+            </div>
         </div>
         <div id="locationSanMarcos" class="w3-hide w3-container w3-center">
             <header class="w3-container w3-dark-gray">
                 <h3>San Marcos</h3>
             </header>
-                    <table>
-                        <tr>
-                            <td>
-                                <a href="http://forecast.weather.gov/MapClick.php?lat=29.9340&lon=-98.0677&unit=0&lg=english&FcstType=graphical"
-                                    target="_blank">
-                                    <img
-                                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=29.9340&lon=-98.0677&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=0&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
-                                </a>
-                            </td>
-                            <td>
-                                <a href="http://forecast.weather.gov/MapClick.php?lat=29.9340&lon=-98.0677&unit=0&lg=english&FcstType=graphical"
-                                    target="_blank">
-                                    <img
-                                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=29.9340&lon=-98.0677&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=48&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
-                                </a>
-                            </td>
-                            <td>
-                                <a href="http://forecast.weather.gov/MapClick.php?lat=29.9340&lon=-98.0677&unit=0&lg=english&FcstType=graphical"
-                                    target="_blank">
-                                    <img
-                                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=29.9340&lon=-98.0677&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=96&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
-                                </a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
+            <div class="w3-container w3-center">
+                <header class="w3-container w3-dark-gray">
+                <h6>0-48 hours</h6>
+            </header>
+                <a href="http://forecast.weather.gov/MapClick.php?lat=29.9340&lon=-98.0677&unit=0&lg=english&FcstType=graphical"
+                    target="_blank">
+                    <img
+                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=29.9340&lon=-98.0677&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=0&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                </a>
+            </div>
+            <div class="w3-container w3-center">
+                <header class="w3-container w3-dark-gray">
+                    <h6>48-96 hours</h6>
+                </header>
+                <a href="http://forecast.weather.gov/MapClick.php?lat=29.9340&lon=-98.0677&unit=0&lg=english&FcstType=graphical"
+                    target="_blank">
+                    <img
+                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=29.9340&lon=-98.0677&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=48&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                </a>
+            </div>
+            <div class="w3-container w3-center">
+                <header class="w3-container w3-dark-gray">
+                    <h6>96-144 hours</h6>
+                </header>
+                <a href="http://forecast.weather.gov/MapClick.php?lat=29.9340&lon=-98.0677&unit=0&lg=english&FcstType=graphical"
+                    target="_blank">
+                    <img
+                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=29.9340&lon=-98.0677&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=96&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                </a>
+            </div>
+        </div>
         <div id="locationSanAngelo" class="w3-hide w3-container w3-center">
             <header class="w3-container w3-dark-gray">
                 <h3>San Angelo</h3>
             </header>
-                    <table>
-                        <tr>
-                            <td>
-                                <a href="http://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703&unit=0&lg=english&FcstType=graphical"
-                                    target="_blank">
-                                    <img
-                                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=31.2578&lon=-100.4703&wfo=SJT&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=0&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
-                                </a>
-                            </td>
-                            <td>
-                                <a href="http://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703&unit=0&lg=english&FcstType=graphical"
-                                    target="_blank">
-                                    <img
-                                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=31.2578&lon=-100.4703&wfo=SJT&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=48&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
-                                </a>
-                            </td>
-                            <td>
-                                <a href="http://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703&unit=0&lg=english&FcstType=graphical"
-                                    target="_blank">
-                                    <img
-                                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=31.2578&lon=-100.4703&wfo=SJT&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=96&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
-                                </a>
-                            </td>
-                        </tr>
-                    </table>
+            <div class="w3-container w3-center">
+                <header class="w3-container w3-dark-gray">
+                <h6>0-48 hours</h6>
+            </header>
+                <a href="http://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703&unit=0&lg=english&FcstType=graphical"
+                    target="_blank">
+                    <img
+                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=31.2578&lon=-100.4703&wfo=SJT&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=0&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                </a>
+            </div>
+            <div class="w3-container w3-center">
+                <header class="w3-container w3-dark-gray">
+                    <h6>48-96 hours</h6>
+                </header>
+                <a href="http://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703&unit=0&lg=english&FcstType=graphical"
+                    target="_blank">
+                    <img
+                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=31.2578&lon=-100.4703&wfo=SJT&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=48&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                </a>
+            </div>
+            <div class="w3-container w3-center">
+                <header class="w3-container w3-dark-gray">
+                    <h6>96-144 hours</h6>
+                </header>
+                <a href="http://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703&unit=0&lg=english&FcstType=graphical"
+                    target="_blank">
+                    <img
+                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=31.2578&lon=-100.4703&wfo=SJT&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=96&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                </a>
+            </div>
         </div>
         <div id="locationSchertz" class="w3-hide w3-container w3-center">
             <header class="w3-container w3-dark-gray">
                 <h3>Shertz</h3>
             </header>
-                    <table>
-                        <tr>
-                            <td>
-                                <a href="http://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874&unit=0&lg=english&FcstType=graphical"
-                                    target="_blank">
-                                    <img
-                                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=29.6151&lon=-98.2874&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=0&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
-                                </a>
-                            </td>
-                            <td>
-                                <a href="http://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874&unit=0&lg=english&FcstType=graphical"
-                                    target="_blank">
-                                    <img
-                                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=29.6151&lon=-98.2874&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=48&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
-                                </a>
-                            </td>
-                            <td>
-                                <a href="http://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874&unit=0&lg=english&FcstType=graphical"
-                                    target="_blank">
-                                    <img
-                                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=29.6151&lon=-98.2874&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=96&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
-                                </a>
-                            </td>
-                        </tr>
-                    </table>
+            <div class="w3-container w3-center">
+                <header class="w3-container w3-dark-gray">
+                <h6>0-48 hours</h6>
+            </header>
+                <a href="http://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874&unit=0&lg=english&FcstType=graphical"
+                    target="_blank">
+                    <img
+                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=29.6151&lon=-98.2874&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=0&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                </a>
+            </div>
+            <div class="w3-container w3-center">
+                <header class="w3-container w3-dark-gray">
+                    <h6>48-96 hours</h6>
+                </header>
+                <a href="http://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874&unit=0&lg=english&FcstType=graphical"
+                    target="_blank">
+                    <img
+                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=29.6151&lon=-98.2874&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=48&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                </a>
+            </div>
+            <div class="w3-container w3-center">
+                <header class="w3-container w3-dark-gray">
+                    <h6>96-144 hours</h6>
+                </header>
+                <a href="http://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874&unit=0&lg=english&FcstType=graphical"
+                    target="_blank">
+                    <img
+                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=29.6151&lon=-98.2874&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=96&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                </a>
+            </div>
         </div>
         <div id="locationCollegeStation" class="w3-hide w3-container w3-center">
             <header class="w3-container w3-dark-gray">
                 <h3>College Station</h3>
             </header>
-                    <table>
-                        <tr>
-                            <td>
-                                <a href="http://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398&unit=0&lg=english&FcstType=graphical"
-                                    target="_blank">
-                                    <img
-                                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=30.6102&lon=-96.3398&wfo=HGX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=0&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
-                                </a>
-                            </td>
-                            <td>
-                                <a href="http://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398&unit=0&lg=english&FcstType=graphical"
-                                    target="_blank">
-                                    <img
-                                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=30.6102&lon=-96.3398&wfo=HGX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=48&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
-                                </a>
-                            </td>
-                            <td>
-                                <a href="http://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398&unit=0&lg=english&FcstType=graphical"
-                                    target="_blank">
-                                    <img
-                                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=30.6102&lon=-96.3398&wfo=HGX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=96&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
-                                </a>
-                            </td>
-                        </tr>
-                    </table>
+            <div class="w3-container w3-center">
+                <header class="w3-container w3-dark-gray">
+                <h6>0-48 hours</h6>
+            </header>
+                <a href="http://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398&unit=0&lg=english&FcstType=graphical"
+                    target="_blank">
+                    <img
+                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=30.6102&lon=-96.3398&wfo=HGX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=0&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                </a>
+            </div>
+            <div class="w3-container w3-center">
+                <header class="w3-container w3-dark-gray">
+                    <h6>48-96 hours</h6>
+                </header>
+                <a href="http://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398&unit=0&lg=english&FcstType=graphical"
+                    target="_blank">
+                    <img
+                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=30.6102&lon=-96.3398&wfo=HGX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=48&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                </a>
+            </div>
+            <div class="w3-container w3-center">
+                <header class="w3-container w3-dark-gray">
+                    <h6>96-144 hours</h6>
+                </header>
+                <a href="http://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398&unit=0&lg=english&FcstType=graphical"
+                    target="_blank">
+                    <img
+                        src="http://forecast.weather.gov/meteograms/Plotter.php?lat=30.6102&lon=-96.3398&wfo=HGX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=96&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6">
+                </a>
+            </div>
         </div>
-        <br />
         <div id="forecast" class="w3-card-4">
             <header class="w3-container w3-blue">
                 <h3>National Forecast</h3>
@@ -360,15 +377,6 @@
                     <img src="http://www.wpc.ncep.noaa.gov//noaa/noaa.gif">
                 </a>
             </div>
-            <!-- <table>
-                <tr>
-                    <td>
-                        <a href="http://www.weather.gov/forecastmaps" target="_blank">
-                            <img src="http://www.wpc.ncep.noaa.gov//noaa/noaa.gif">
-                        </a>
-                    </td>
-                </tr>
-            </table> -->
         </div>
         <div id="satellite" class="w3-card-4">
             <header class="w3-container w3-aqua">
@@ -394,139 +402,7 @@
                     <img src="http://www.atmo.arizona.edu/gifs/WV500MB.GIF">
                 </a>
             </div>
-            <!-- <table>
-                <tr>
-                    <td>
-                        <a href="http://www.goes.noaa.gov/dml/comp/goes/ceus/rb.html" target="_blank">
-                            <img src="http://www.ssd.noaa.gov/goes/comp/ceus/rb.jpg">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="http://www.goes.noaa.gov/dml/comp/goes/ceus/wv.html" target="_blank">
-                            <img src="http://www.ssd.noaa.gov/goes/comp/ceus/wv.jpg">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="http://www.goes.noaa.gov/dml/comp/goes/ceus/vis.html" target="_blank">
-                            <img src="http://www.ssd.noaa.gov/goes/comp/ceus/vis.jpg">
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="3">
-                        <a href="http://www.atmo.arizona.edu/products/wximagery/500mbwv.html" target="_blank">
-                            <img src="http://www.atmo.arizona.edu/gifs/WV500MB.GIF">
-                        </a>
-                    </td>
-                </tr>
-            </table> -->
         </div>
-        <!-- <div id="radar">
-            <table>
-                <tr>
-                    <td>
-                        <a href="http://radar.weather.gov/radar.php?rid=FDX" target="_blank">
-                            <img src="http://radar.weather.gov/lite/N0R/FDX_loop.gif">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="http://radar.weather.gov/radar.php?rid=AMA" target="_blank">
-                            <img src="http://radar.weather.gov/lite/N0R/AMA_loop.gif">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="http://radar.weather.gov/radar.php?rid=LBB" target="_blank">
-                            <img src="http://radar.weather.gov/lite/N0R/LBB_loop.gif">
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="http://radar.weather.gov/radar.php?rid=FDR" target="_blank">
-                            <img src="http://radar.weather.gov/lite/N0R/FDR_loop.gif">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="http://radar.weather.gov/radar.php?rid=DYX" target="_blank">
-                            <img src="http://radar.weather.gov/lite/N0R/DYX_loop.gif">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="http://radar.weather.gov/radar.php?rid=FWS" target="_blank">
-                            <img src="http://radar.weather.gov/lite/N0R/FWS_loop.gif">
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="http://radar.weather.gov/radar.php?rid=EPZ" target="_blank">
-                            <img src="http://radar.weather.gov/lite/N0R/EPZ_loop.gif">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="http://radar.weather.gov/radar.php?rid=MAF" target="_blank">
-                            <img src="http://radar.weather.gov/lite/N0R/MAF_loop.gif">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="http://radar.weather.gov/radar.php?rid=SJT" target="_blank">
-                            <img src="http://radar.weather.gov/lite/N0R/SJT_loop.gif">
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="http://radar.weather.gov/radar.php?rid=GRK" target="_blank">
-                            <img src="http://radar.weather.gov/lite/N0R/GRK_loop.gif">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="http://radar.weather.gov/radar.php?rid=EWX" target="_blank">
-                            <img src="http://radar.weather.gov/lite/N0R/EWX_loop.gif">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="http://radar.weather.gov/radar.php?rid=HGX" target="_blank">
-                            <img src="http://radar.weather.gov/lite/N0R/HGX_loop.gif">
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="http://radar.weather.gov/radar.php?rid=DFX" target="_blank">
-                            <img src="http://radar.weather.gov/lite/N0R/DFX_loop.gif">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="http://radar.weather.gov/radar.php?rid=CRP" target="_blank">
-                            <img src="http://radar.weather.gov/lite/N0R/CRP_loop.gif">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="http://radar.weather.gov/radar.php?rid=BRO" target="_blank">
-                            <img src="http://radar.weather.gov/lite/N0R/BRO_loop.gif">
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="http://radar.weather.gov/radar.php?rid=SHV" target="_blank">
-                            <img src="http://radar.weather.gov/lite/N0R/SHV_loop.gif">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="http://radar.weather.gov/radar.php?rid=POE" target="_blank">
-                            <img src="http://radar.weather.gov/lite/N0R/POE_loop.gif">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="http://radar.weather.gov/radar.php?rid=LCH" target="_blank">
-                            <img src="http://radar.weather.gov/lite/N0R/LCH_loop.gif">
-                        </a>
-                    </td>
-                </tr>
-            </table>
-        </div> -->
         <div id="warnings" class="w3-card-4">
             <header class="w3-container w3-red">
                 <h3>Severe</h3>
@@ -536,15 +412,6 @@
                     <img src="http://forecast.weather.gov/wwamap/png/US.png">
                 </a>
             </div>
-            <!-- <table>
-                <tr>
-                    <td>
-                        <a href="http://www.weather.gov/" target="_blank">
-                            <img src="http://forecast.weather.gov/wwamap/png/US.png">
-                        </a>
-                    </td>
-                </tr>
-            </table> -->
         </div>
         <div id="spc" class="w3-card-4">
             <div>
@@ -567,30 +434,6 @@
                     <img src="http://www.spc.noaa.gov/products/exper/day4-8/day48prob.gif">
                 </a>
             </div>
-            <!-- <table>
-                <tr>
-                    <td>
-                        <a href="http://www.spc.noaa.gov/products/outlook/day1otlk.html" target="_blank">
-                            <img src="http://www.spc.noaa.gov/products/outlook/day1otlk_1630.gif">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="http://www.spc.noaa.gov/products/outlook/day2otlk.html" target="_blank">
-                            <img src="http://www.spc.noaa.gov/products/outlook/day2otlk_1730.gif">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="http://www.spc.noaa.gov/products/outlook/day3otlk.html" target="_blank">
-                            <img src="http://www.spc.noaa.gov/products/outlook/day3otlk_0830.gif">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="http://www.spc.noaa.gov/products/exper/day4-8/" target="_blank">
-                            <img src="http://www.spc.noaa.gov/products/exper/day4-8/day48prob.gif">
-                        </a>
-                    </td>
-                </tr>
-            </table> -->
         </div>
         <div id="fire" class="w3-card-4">
             <header class="w3-container w3-orange">
@@ -616,32 +459,6 @@
                     <img src="http://tfsfrp.tamu.edu/wildfires/DecBan.png">
                 </a>
             </div>
-            <!-- <table>
-                <tr>
-                    <td>
-                        <a href="http://www.spc.noaa.gov/products/fire_wx/fwdy1.html" target="_blank">
-                            <img src="http://www.spc.noaa.gov/products/fire_wx/day1otlk_fire.gif">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="http://www.spc.noaa.gov/products/fire_wx/fwdy2.html" target="_blank">
-                            <img src="http://www.spc.noaa.gov/products/fire_wx/day2otlk_fire.gif">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="http://www.spc.noaa.gov/products/exper/fire_wx/" target="_blank">
-                            <img src="http://www.spc.noaa.gov/products/exper/fire_wx/imgs/day38otlk_fire.gif">
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="3">
-                        <a href="http://texasforestservice.tamu.edu/TexasBurnBans/" target="_blank">
-                            <img src="http://tfsfrp.tamu.edu/wildfires/DecBan.png" style="width: 815px;">
-                        </a>
-                    </td>
-                </tr>
-            </table> -->
         </div>
         <div id="tropical" class="w3-card-4">
             <header class="w3-container w3-aqua">
@@ -662,35 +479,16 @@
                     <img src="http://www.nhc.noaa.gov/xgtwo/two_cpac_2d0.png">
                 </a>
             </div>
-            <!-- <table>
-                <tr>
-                    <td>
-                        <a href="http://www.nhc.noaa.gov/?atlc" target="_blank">
-                            <img src="http://www.nhc.noaa.gov/xgtwo/two_atl_2d0.png">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="http://www.nhc.noaa.gov/?epac" target="_blank">
-                            <img src="http://www.nhc.noaa.gov/xgtwo/two_pac_2d0.png">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="http://www.nhc.noaa.gov/?epac" target="_blank">
-                            <img src="http://www.nhc.noaa.gov/xgtwo/two_cpac_2d0.png">
-                        </a>
-                    </td>
-                </tr>
-            </table> -->
         </div>
         <script>
             function myFunction(id) {
-              var x = document.getElementById(id);
-              if (x.className.indexOf("w3-show") == -1) {
-                x.className += " w3-show";
-              } else { 
-                x.className = x.className.replace(" w3-show", "");
-              }
+                var x = document.getElementById(id);
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                } else {
+                    x.className = x.className.replace(" w3-show", "");
+                }
             }
-            </script>
+        </script>
     </body>
     <html>
