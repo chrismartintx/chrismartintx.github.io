@@ -11,308 +11,155 @@
     </style>
 </head>
 <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a href="#" class="nav-link" onclick="toggleAllMeteograms()">ALL METEOGRAMS</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            NWSWFO
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a href="https://www.weather.gov/AMA/" target="_blank" class="dropdown-item">AMA (Amarillo)</a>
-                            <a href="https://www.weather.gov/BRO/" target="_blank" class="dropdown-item">BRO (Brownsville)</a>
-                            <a href="https://www.weather.gov/CRP/" target="_blank" class="dropdown-item">CRP (Corpus)</a>
-                            <a href="https://www.weather.gov/EPZ/" target="_blank" class="dropdown-item">EPZ (El Paso)</a>
-                            <a href="https://www.weather.gov/ewx/" target="_blank" class="dropdown-item">EWX (San Antonio)</a>
-                            <a href="https://www.weather.gov/fwd/" target="_blank" class="dropdown-item">FWD (Dallas)</a>
-                            <a href="https://www.weather.gov/hgx/" target="_blank" class="dropdown-item">HGX (Houston)</a>
-                            <a href="https://www.weather.gov/LCH/" target="_blank" class="dropdown-item">LCH (Lake Charles)</a>
-                            <a href="https://www.weather.gov/LUB/" target="_blank" class="dropdown-item">LUB (Lubbock)</a>
-                            <a href="https://www.weather.gov/MAF/" target="_blank" class="dropdown-item">MAF (Midland)</a>
-                            <a href="https://www.weather.gov/OUN/" target="_blank" class="dropdown-item">OUN (Norman)</a>
-                            <a href="https://www.weather.gov/SHV/" target="_blank" class="dropdown-item">SHV (Shrevport)</a>
-                            <a href="https://www.weather.gov/SJT/" target="_blank" class="dropdown-item">SJT (San Angelo)</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            SOUTHERN REGION
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a href="https://www.weather.gov/srh/" target="_blank" class="dropdown-item">SRH</a>
-                            <a href="https://www.weather.gov/wgrfc/" target="_blank" class="dropdown-item">WGRFC</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            NOAA
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a href="https://www.spc.noaa.gov/" target="_blank" class="dropdown-item">Storm Prediction Center</a>
-                            <a href="https://aviationweather.gov/" target="_blank" class="dropdown-item">Aviation Weather Center</a>
-                            <a href="https://www.cpc.ncep.noaa.gov/" target="_blank" class="dropdown-item">Climate Prediction Center</a>
-                            <a href="https://www.wpc.ncep.noaa.gov/#page=ovw" target="_blank" class="dropdown-item">Weather Prediction Center</a>
-                            <a href="https://water.weather.gov/ahps/region.php?state=tx" target="_blank" class="dropdown-item">AHPS</a>
-                            <a href="https://www.wrh.noaa.gov/zoa/mwmap3.php?map=usa" target="_blank" class="dropdown-item">National METAR/TAF</a>
-                            <a href="https://www.nhc.noaa.gov/" target="_blank" class="dropdown-item">NHC</a>
-                            <a href="https://inws.ncep.noaa.gov/" target="_blank" class="dropdown-item">iNWS</a>
-                            <a href="https://nwschat.weather.gov/live/?nomap" target="_blank" class="dropdown-item">NWSChat</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            FIRE
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a href="https://www.srh.noaa.gov/ridge2/fire/" target="_blank" class="dropdown-item">Fire Wx</a>
-                            <a href="https://twc.tamu.edu/kbdi" target="_blank" class="dropdown-item">TAMU KBDI</a>
-                            <a href="https://twc.tamu.edu/tfd" target="_blank" class="dropdown-item">TAMU TFD</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            MISC
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a href="https://www.srh.noaa.gov/ridge2/fire/" target="_blank" class="dropdown-item">Fire Wx</a>
-                            <a href="https://twc.tamu.edu/kbdi" target="_blank" class="dropdown-item">TAMU KBDI</a>
-                            <a href="https://twc.tamu.edu/tfd" target="_blank" class="dropdown-item">TAMU TFD</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            SAN MARCOS
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a href="#" onclick="myFunction('locationSanMarcos')" class="dropdown-item">Meteogram</a>
-                            <a href="https://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=AFD&format=CI&version=1&glossary=1" target="_blank" class="dropdown-item">Area Forecast Discussion</a>
-                            <a href="https://forecast.weather.gov/MapClick.php?lat=29.9340&lon=-98.0677" target="_blank" class="dropdown-item">Local Forecast</a>
-                            <a href="https://forecast.weather.gov/MapClick.php?lat=29.9340&lon=-98.0677&unit=0&lg=english&FcstType=text&TextType=2" target="_blank" class="dropdown-item">Printable Forecast</a>
-                            <a href="https://forecast.weather.gov/MapClick.php?lat=29.9340&lon=-98.0677&unit=0&lg=english&FcstType=text&TextType=1" target="_blank" class="dropdown-item">Text Forecast</a>
-                            <a href="https://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=PFM&format=CI&version=1&glossary=1" target="_blank" class="dropdown-item">Point Forecasts</a>
-                            <a href="https://www.weather.gov/ewx/fire" target="_blank" class="dropdown-item">Local Fire Weather</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            BRUSHY CREEK
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a href="#" onclick="myFunction('locationBrushyCreek')" class="dropdown-item">Meteogram</a>
-                            <a href="https://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=AFD&format=CI&version=1&glossary=1" target="_blank" class="dropdown-item">Area Forecast Discussion</a>
-                            <a href="https://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274" target="_blank" class="dropdown-item">Local Forecast</a>
-                            <a href="https://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274&unit=0&lg=english&FcstType=text&TextType=2" target="_blank" class="dropdown-item">Printable Forecast</a>
-                            <a href="https://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274&unit=0&lg=english&FcstType=text&TextType=1" target="_blank" class="dropdown-item">Text Forecast</a>
-                            <a href="https://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=PFM&format=CI&version=1&glossary=1" target="_blank" class="dropdown-item">Point Forecasts</a>
-                            <a href="https://www.weather.gov/ewx/fire" target="_blank" class="dropdown-item">Local Fire Weather</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            SAN ANGELO
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a href="#" onclick="myFunction('locationSanAngelo')" class="dropdown-item">Meteogram</a>
-                            <a href="https://forecast.weather.gov/product.php?site=SJT&issuedby=SJT&product=AFD&format=CI&version=1&glossary=1" target="_blank" class="dropdown-item">Area Forecast Discussion</a>
-                            <a href="https://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703" target="_blank" class="dropdown-item">Local Forecast</a>
-                            <a href="https://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703&unit=0&lg=english&FcstType=text&TextType=2" target="_blank" class="dropdown-item">Printable Forecast</a>
-                            <a href="https://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703&unit=0&lg=english&FcstType=text&TextType=1" target="_blank" class="dropdown-item">Text Forecast</a>
-                            <a href="https://forecast.weather.gov/product.php?site=SJT&issuedby=SJT&product=PFM&format=CI&version=1&glossary=1" target="_blank" class="dropdown-item">Point Forecasts</a>
-                            <a href="https://www.weather.gov/SJT/fire" target="_blank" class="dropdown-item">Local Fire Weather</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            SCHERTZ
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a href="#" onclick="myFunction('locationSchertz')" class="dropdown-item">Meteogram</a>
-                            <a href="https://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=AFD&format=CI&version=1&glossary=1" target="_blank" class="dropdown-item">Area Forecast Discussion</a>
-                            <a href="https://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874" target="_blank" class="dropdown-item">Local Forecast</a>
-                            <a href="https://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874&unit=0&lg=english&FcstType=text&TextType=2" target="_blank" class="dropdown-item">Printable Forecast</a>
-                            <a href="https://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874&unit=0&lg=english&FcstType=text&TextType=1" target="_blank" class="dropdown-item">Text Forecast</a>
-                            <a href="https://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=PFM&format=CI&version=1&glossary=1" target="_blank" class="dropdown-item">Point Forecasts</a>
-                            <a href="https://www.weather.gov/ewx/fire" target="_blank" class="dropdown-item">Local Fire Weather</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            COLLEGE STATION
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a href="#" onclick="myFunction('locationCollegeStation')" class="dropdown-item">Meteogram</a>
-                            <a href="https://forecast.weather.gov/product.php?site=HGX&issuedby=HGX&product=AFD&format=CI&version=1&glossary=1" target="_blank" class="dropdown-item">Area Forecast Discussion</a>
-                            <a href="https://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398" target="_blank" class="dropdown-item">Local Forecast</a>
-                            <a href="https://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398&unit=0&lg=english&FcstType=text&TextType=2" target="_blank" class="dropdown-item">Printable Forecast</a>
-                            <a href="https://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398&unit=0&lg=english&FcstType=text&TextType=1" target="_blank" class="dropdown-item">Text Forecast</a>
-                            <a href="https://forecast.weather.gov/product.php?site=HGX&issuedby=HGX&product=PFM&format=CI&version=1&glossary=1" target="_blank" class="dropdown-item">Point Forecasts</a>
-                            <a href="https://www.weather.gov/hgx/fire" target="_blank" class="dropdown-item">Local Fire Weather</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div class="container">
-        <div id="locationBrushyCreek" class="d-none row meteograms">
-            <!-- <header class="" onclick="myFunction('locationBrushyCreek')">
-                <h3>BRUSHY CREEK</h3>
-            </header> -->
-                <div class="col">
-                    <header class="bg-dark text-light">
-                        <h6>0-48 HOURS (BRUSHY CREEK)</h6>
-                    </header>
-                    <a href="https://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274&unit=0&lg=english&FcstType=graphical" target="_blank">
-                        <img src="https://forecast.weather.gov/meteograms/Plotter.php?lat=30.5094&lon=-97.7274&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=0&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6" class="w3-card-2 w3-round w3-margin-top w3-margin-bottom">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="#" class="nav-link" onclick="toggleAllMeteograms()">ALL METEOGRAMS</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        NWSWFO
                     </a>
-                </div>
-                <div class="col">
-                    <header class="w3-card w3-border-top w3-border-bottom w3-border-black w3-ios-light-grey">
-                        <h6>48-96 HOURS (BRUSHY CREEK)</h6>
-                    </header>
-                    <a href="https://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274&unit=0&lg=english&FcstType=graphical" target="_blank">
-                        <img src="https://forecast.weather.gov/meteograms/Plotter.php?lat=30.5094&lon=-97.7274&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=48&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6" class="w3-card-2 w3-round w3-margin-top w3-margin-bottom">
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a href="https://www.weather.gov/AMA/" target="_blank" class="dropdown-item">AMA (Amarillo)</a>
+                        <a href="https://www.weather.gov/BRO/" target="_blank" class="dropdown-item">BRO (Brownsville)</a>
+                        <a href="https://www.weather.gov/CRP/" target="_blank" class="dropdown-item">CRP (Corpus)</a>
+                        <a href="https://www.weather.gov/EPZ/" target="_blank" class="dropdown-item">EPZ (El Paso)</a>
+                        <a href="https://www.weather.gov/ewx/" target="_blank" class="dropdown-item">EWX (San Antonio)</a>
+                        <a href="https://www.weather.gov/fwd/" target="_blank" class="dropdown-item">FWD (Dallas)</a>
+                        <a href="https://www.weather.gov/hgx/" target="_blank" class="dropdown-item">HGX (Houston)</a>
+                        <a href="https://www.weather.gov/LCH/" target="_blank" class="dropdown-item">LCH (Lake Charles)</a>
+                        <a href="https://www.weather.gov/LUB/" target="_blank" class="dropdown-item">LUB (Lubbock)</a>
+                        <a href="https://www.weather.gov/MAF/" target="_blank" class="dropdown-item">MAF (Midland)</a>
+                        <a href="https://www.weather.gov/OUN/" target="_blank" class="dropdown-item">OUN (Norman)</a>
+                        <a href="https://www.weather.gov/SHV/" target="_blank" class="dropdown-item">SHV (Shrevport)</a>
+                        <a href="https://www.weather.gov/SJT/" target="_blank" class="dropdown-item">SJT (San Angelo)</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        SOUTHERN REGION
                     </a>
-                </div>
-                <div class="col">
-                    <header class="w3-card w3-border-top w3-border-bottom w3-border-black w3-ios-light-grey">
-                        <h6>96-144 HOURS (BRUSHY CREEK)</h6>
-                    </header>
-                    <a href="https://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274&unit=0&lg=english&FcstType=graphical" target="_blank">
-                        <img src="https://forecast.weather.gov/meteograms/Plotter.php?lat=30.5094&lon=-97.7274&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=96&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6" class="w3-card-2 w3-round w3-margin-top w3-margin-bottom">
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a href="https://www.weather.gov/srh/" target="_blank" class="dropdown-item">SRH</a>
+                        <a href="https://www.weather.gov/wgrfc/" target="_blank" class="dropdown-item">WGRFC</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        NOAA
                     </a>
-                </div>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a href="https://www.spc.noaa.gov/" target="_blank" class="dropdown-item">Storm Prediction Center</a>
+                        <a href="https://aviationweather.gov/" target="_blank" class="dropdown-item">Aviation Weather Center</a>
+                        <a href="https://www.cpc.ncep.noaa.gov/" target="_blank" class="dropdown-item">Climate Prediction Center</a>
+                        <a href="https://www.wpc.ncep.noaa.gov/#page=ovw" target="_blank" class="dropdown-item">Weather Prediction Center</a>
+                        <a href="https://water.weather.gov/ahps/region.php?state=tx" target="_blank" class="dropdown-item">AHPS</a>
+                        <a href="https://www.wrh.noaa.gov/zoa/mwmap3.php?map=usa" target="_blank" class="dropdown-item">National METAR/TAF</a>
+                        <a href="https://www.nhc.noaa.gov/" target="_blank" class="dropdown-item">NHC</a>
+                        <a href="https://inws.ncep.noaa.gov/" target="_blank" class="dropdown-item">iNWS</a>
+                        <a href="https://nwschat.weather.gov/live/?nomap" target="_blank" class="dropdown-item">NWSChat</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        FIRE
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a href="https://www.srh.noaa.gov/ridge2/fire/" target="_blank" class="dropdown-item">Fire Wx</a>
+                        <a href="https://twc.tamu.edu/kbdi" target="_blank" class="dropdown-item">TAMU KBDI</a>
+                        <a href="https://twc.tamu.edu/tfd" target="_blank" class="dropdown-item">TAMU TFD</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        MISC
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a href="https://www.srh.noaa.gov/ridge2/fire/" target="_blank" class="dropdown-item">Fire Wx</a>
+                        <a href="https://twc.tamu.edu/kbdi" target="_blank" class="dropdown-item">TAMU KBDI</a>
+                        <a href="https://twc.tamu.edu/tfd" target="_blank" class="dropdown-item">TAMU TFD</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        SAN MARCOS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a href="#" onclick="myFunction('locationSanMarcos')" class="dropdown-item">Meteogram</a>
+                        <a href="https://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=AFD&format=CI&version=1&glossary=1" target="_blank" class="dropdown-item">Area Forecast Discussion</a>
+                        <a href="https://forecast.weather.gov/MapClick.php?lat=29.9340&lon=-98.0677" target="_blank" class="dropdown-item">Local Forecast</a>
+                        <a href="https://forecast.weather.gov/MapClick.php?lat=29.9340&lon=-98.0677&unit=0&lg=english&FcstType=text&TextType=2" target="_blank" class="dropdown-item">Printable Forecast</a>
+                        <a href="https://forecast.weather.gov/MapClick.php?lat=29.9340&lon=-98.0677&unit=0&lg=english&FcstType=text&TextType=1" target="_blank" class="dropdown-item">Text Forecast</a>
+                        <a href="https://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=PFM&format=CI&version=1&glossary=1" target="_blank" class="dropdown-item">Point Forecasts</a>
+                        <a href="https://www.weather.gov/ewx/fire" target="_blank" class="dropdown-item">Local Fire Weather</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        BRUSHY CREEK
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a href="#" onclick="myFunction('locationBrushyCreek')" class="dropdown-item">Meteogram</a>
+                        <a href="https://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=AFD&format=CI&version=1&glossary=1" target="_blank" class="dropdown-item">Area Forecast Discussion</a>
+                        <a href="https://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274" target="_blank" class="dropdown-item">Local Forecast</a>
+                        <a href="https://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274&unit=0&lg=english&FcstType=text&TextType=2" target="_blank" class="dropdown-item">Printable Forecast</a>
+                        <a href="https://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274&unit=0&lg=english&FcstType=text&TextType=1" target="_blank" class="dropdown-item">Text Forecast</a>
+                        <a href="https://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=PFM&format=CI&version=1&glossary=1" target="_blank" class="dropdown-item">Point Forecasts</a>
+                        <a href="https://www.weather.gov/ewx/fire" target="_blank" class="dropdown-item">Local Fire Weather</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        SAN ANGELO
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a href="#" onclick="myFunction('locationSanAngelo')" class="dropdown-item">Meteogram</a>
+                        <a href="https://forecast.weather.gov/product.php?site=SJT&issuedby=SJT&product=AFD&format=CI&version=1&glossary=1" target="_blank" class="dropdown-item">Area Forecast Discussion</a>
+                        <a href="https://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703" target="_blank" class="dropdown-item">Local Forecast</a>
+                        <a href="https://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703&unit=0&lg=english&FcstType=text&TextType=2" target="_blank" class="dropdown-item">Printable Forecast</a>
+                        <a href="https://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703&unit=0&lg=english&FcstType=text&TextType=1" target="_blank" class="dropdown-item">Text Forecast</a>
+                        <a href="https://forecast.weather.gov/product.php?site=SJT&issuedby=SJT&product=PFM&format=CI&version=1&glossary=1" target="_blank" class="dropdown-item">Point Forecasts</a>
+                        <a href="https://www.weather.gov/SJT/fire" target="_blank" class="dropdown-item">Local Fire Weather</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        SCHERTZ
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a href="#" onclick="myFunction('locationSchertz')" class="dropdown-item">Meteogram</a>
+                        <a href="https://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=AFD&format=CI&version=1&glossary=1" target="_blank" class="dropdown-item">Area Forecast Discussion</a>
+                        <a href="https://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874" target="_blank" class="dropdown-item">Local Forecast</a>
+                        <a href="https://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874&unit=0&lg=english&FcstType=text&TextType=2" target="_blank" class="dropdown-item">Printable Forecast</a>
+                        <a href="https://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874&unit=0&lg=english&FcstType=text&TextType=1" target="_blank" class="dropdown-item">Text Forecast</a>
+                        <a href="https://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=PFM&format=CI&version=1&glossary=1" target="_blank" class="dropdown-item">Point Forecasts</a>
+                        <a href="https://www.weather.gov/ewx/fire" target="_blank" class="dropdown-item">Local Fire Weather</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        COLLEGE STATION
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a href="#" onclick="myFunction('locationCollegeStation')" class="dropdown-item">Meteogram</a>
+                        <a href="https://forecast.weather.gov/product.php?site=HGX&issuedby=HGX&product=AFD&format=CI&version=1&glossary=1" target="_blank" class="dropdown-item">Area Forecast Discussion</a>
+                        <a href="https://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398" target="_blank" class="dropdown-item">Local Forecast</a>
+                        <a href="https://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398&unit=0&lg=english&FcstType=text&TextType=2" target="_blank" class="dropdown-item">Printable Forecast</a>
+                        <a href="https://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398&unit=0&lg=english&FcstType=text&TextType=1" target="_blank" class="dropdown-item">Text Forecast</a>
+                        <a href="https://forecast.weather.gov/product.php?site=HGX&issuedby=HGX&product=PFM&format=CI&version=1&glossary=1" target="_blank" class="dropdown-item">Point Forecasts</a>
+                        <a href="https://www.weather.gov/hgx/fire" target="_blank" class="dropdown-item">Local Fire Weather</a>
+                    </div>
+                </li>
+            </ul>
         </div>
-        <div id="locationSanMarcos" class="d-none row meteograms">
-            <!-- <header class="w3-ios-grey w3-card w3-border-top w3-border-black" onclick="myFunction('locationSanMarcos')">
-                <h3>SAN MARCOS</h3>
-            </header> -->
-            <div class="row">
-                <div class="col">
-                    <header class="w3-card w3-border-top w3-border-bottom w3-border-black w3-ios-light-grey">
-                        <h6>0-48 HOURS (SAN MARCOS)</h6>
-                    </header>
-                    <a href="https://forecast.weather.gov/MapClick.php?lat=29.9340&lon=-98.0677&unit=0&lg=english&FcstType=graphical" target="_blank">
-                        <img src="https://forecast.weather.gov/meteograms/Plotter.php?lat=29.9340&lon=-98.0677&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=0&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6" class="w3-card-2 w3-round w3-margin-top w3-margin-bottom">
-                    </a>
-                </div>
-                <div class="col">
-                    <header class="w3-card w3-border-top w3-border-bottom w3-border-black w3-ios-light-grey">
-                        <h6>48-96 HOURS (SAN MARCOS)</h6>
-                    </header>
-                    <a href="https://forecast.weather.gov/MapClick.php?lat=29.9340&lon=-98.0677&unit=0&lg=english&FcstType=graphical" target="_blank">
-                        <img src="https://forecast.weather.gov/meteograms/Plotter.php?lat=29.9340&lon=-98.0677&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=48&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6" class="w3-card-2 w3-round w3-margin-top w3-margin-bottom">
-                    </a>
-                </div>
-                <div class="col">
-                    <header class="w3-card w3-border-top w3-border-bottom w3-border-black w3-ios-light-grey">
-                        <h6>96-144 HOURS (SAN MARCOS)</h6>
-                    </header>
-                    <a href="https://forecast.weather.gov/MapClick.php?lat=29.9340&lon=-98.0677&unit=0&lg=english&FcstType=graphical" target="_blank">
-                        <img src="https://forecast.weather.gov/meteograms/Plotter.php?lat=29.9340&lon=-98.0677&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=96&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6" class="w3-card-2 w3-round w3-margin-top w3-margin-bottom">
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div id="locationSanAngelo" class="d-none row meteograms">
-            <!-- <header class="w3-ios-grey w3-card w3-border-top w3-border-black" onclick="myFunction('locationSanAngelo')">
-                <h3>SAN ANGELO</h3>
-            </header> -->
-            <div class="row">
-                <div class="col">
-                    <header class="w3-card w3-border-top w3-border-bottom w3-border-black w3-ios-light-grey">
-                        <h6>0-48 HOURS (SAN ANGELO)</h6>
-                    </header>
-                    <a href="https://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703&unit=0&lg=english&FcstType=graphical" target="_blank">
-                        <img src="https://forecast.weather.gov/meteograms/Plotter.php?lat=31.2578&lon=-100.4703&wfo=SJT&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=0&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6" class="w3-card-2 w3-round w3-margin-top w3-margin-bottom">
-                    </a>
-                </div>
-                <div class="col">
-                    <header class="w3-card w3-border-top w3-border-bottom w3-border-black w3-ios-light-grey">
-                        <h6>48-96 HOURS (SAN ANGELO)</h6>
-                    </header>
-                    <a href="https://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703&unit=0&lg=english&FcstType=graphical" target="_blank">
-                        <img src="https://forecast.weather.gov/meteograms/Plotter.php?lat=31.2578&lon=-100.4703&wfo=SJT&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=48&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6" class="w3-card-2 w3-round w3-margin-top w3-margin-bottom">
-                    </a>
-                </div>
-                <div class="col">
-                    <header class="w3-card w3-border-top w3-border-bottom w3-border-black w3-ios-light-grey">
-                        <h6>96-144 HOURS (SAN ANGELO)</h6>
-                    </header>
-                    <a href="https://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703&unit=0&lg=english&FcstType=graphical" target="_blank">
-                        <img src="https://forecast.weather.gov/meteograms/Plotter.php?lat=31.2578&lon=-100.4703&wfo=SJT&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=96&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6" class="w3-card-2 w3-round w3-margin-top w3-margin-bottom">
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div id="locationSchertz" class="d-none row meteograms">
-            <!-- <header class="w3-ios-grey w3-card w3-border-top w3-border-black" onclick="myFunction('locationSchertz')">
-                <h3>SHERTZ</h3>
-            </header> -->
-            <div class="row">
-                <div class="col">
-                    <header class="w3-card w3-border-top w3-border-bottom w3-border-black w3-ios-light-grey">
-                        <h6>0-48 HOURS (SHERTZ)</h6>
-                    </header>
-                    <a href="https://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874&unit=0&lg=english&FcstType=graphical" target="_blank">
-                        <img src="https://forecast.weather.gov/meteograms/Plotter.php?lat=29.6151&lon=-98.2874&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=0&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6" class="w3-card-2 w3-round w3-margin-top w3-margin-bottom">
-                    </a>
-                </div>
-                <div class="col">
-                    <header class="w3-card w3-border-top w3-border-bottom w3-border-black w3-ios-light-grey">
-                        <h6>48-96 HOURS (SHERTZ)</h6>
-                    </header>
-                    <a href="https://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874&unit=0&lg=english&FcstType=graphical" target="_blank">
-                        <img src="https://forecast.weather.gov/meteograms/Plotter.php?lat=29.6151&lon=-98.2874&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=48&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6" class="w3-card-2 w3-round w3-margin-top w3-margin-bottom">
-                    </a>
-                </div>
-                <div class="col">
-                    <header class="w3-card w3-border-top w3-border-bottom w3-border-black w3-ios-light-grey">
-                        <h6>96-144 HOURS (SHERTZ)</h6>
-                    </header>
-                    <a href="https://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874&unit=0&lg=english&FcstType=graphical" target="_blank">
-                        <img src="https://forecast.weather.gov/meteograms/Plotter.php?lat=29.6151&lon=-98.2874&wfo=EWX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=96&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6" class="w3-card-2 w3-round w3-margin-top w3-margin-bottom">
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div id="locationCollegeStation" class="d-none row meteograms">
-            <!-- <header class="w3-ios-grey w3-card w3-border-top w3-border-black" onclick="myFunction('locationCollegeStation')">
-                <h3>COLLEGE STATION</h3>
-            </header> -->
-            <div class="col">
-                <header class="w3-card w3-border-top w3-border-bottom w3-border-black w3-ios-light-grey">
-                    <h6>0-48 HOURS (COLLEGE STATION)</h6>
-                </header>
-                <a href="https://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398&unit=0&lg=english&FcstType=graphical" target="_blank">
-                    <img src="https://forecast.weather.gov/meteograms/Plotter.php?lat=30.6102&lon=-96.3398&wfo=HGX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=0&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6" class="w3-card-2 w3-round w3-margin-top w3-margin-bottom">
-                </a>
-            </div>
-            <div class="col">
-                <header class="w3-card w3-border-top w3-border-bottom w3-border-black w3-ios-light-grey">
-                    <h6>48-96 HOURS (COLLEGE STATION)</h6>
-                </header>
-                <a href="https://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398&unit=0&lg=english&FcstType=graphical" target="_blank">
-                    <img src="https://forecast.weather.gov/meteograms/Plotter.php?lat=30.6102&lon=-96.3398&wfo=HGX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=48&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6" class="w3-card-2 w3-round w3-margin-top w3-margin-bottom">
-                </a>
-            </div>
-            <div class="col">
-                <header class="w3-card w3-border-top w3-border-bottom w3-border-black w3-ios-light-grey">
-                    <h6>96-144 HOURS (COLLEGE STATION)</h6>
-                </header>
-                <a href="https://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398&unit=0&lg=english&FcstType=graphical" target="_blank">
-                    <img src="https://forecast.weather.gov/meteograms/Plotter.php?lat=30.6102&lon=-96.3398&wfo=HGX&zcode=TXZ173&gset=18&gdiff=3&unit=0&tinfo=CY6&ahour=96&pcmd=111111111111101110001110100000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6" class="w3-card-2 w3-round w3-margin-top w3-margin-bottom">
-                </a>
-            </div>
-        </div>
-        </div>
-        <div class="container">
+    </nav>
+    <div class="container">
         <div id="forecast" class="row">
             <!-- <header class="w3-container w3-ios-blue w3-card">
                 <h3>NATIONAL FORECAST</h3>
@@ -323,7 +170,7 @@
                 </a>
             </div>
         </div>
-
+        
         <div id="satellite" class="row">
             <!-- <header class="w3-container w3-ios-green w3-card">
                 <h3>SATELLITE</h3>
@@ -349,7 +196,7 @@
                 </a>
             </div>
         </div>
-
+        
         <div id="warnings" class="row">
             <!-- <header class="w3-container w3-ios-red w3-card">
                 <h3>SEVERE</h3>
@@ -380,7 +227,7 @@
                 </a>
             </div>
         </div>
-
+        
         <div id="fire" class="row">
             <!-- <header class="w3-container w3-ios-orange w3-card">
                 <h3>FIRE</h3>
@@ -427,7 +274,7 @@
             </div>
         </div>
     </div>
-    </div>
+</div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
