@@ -96,6 +96,7 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a href="#" onclick="myFunction('locationSanMarcos')" class="dropdown-item text-uppercase">Meteogram</a>
+                            <a href="#" onclick="toggleShowOnLoad('sanMarcos')" class="dropdown-item text-uppercase">Toggle Show On Load</a>
                             <a href="https://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=AFD&format=CI&version=1&glossary=1" target="_blank" class="dropdown-item text-uppercase">Area Forecast Discussion</a>
                             <a href="https://forecast.weather.gov/MapClick.php?lat=29.9340&lon=-98.0677" target="_blank" class="dropdown-item text-uppercase">Local Forecast</a>
                             <a href="https://forecast.weather.gov/MapClick.php?lat=29.9340&lon=-98.0677&unit=0&lg=english&FcstType=text&TextType=2" target="_blank" class="dropdown-item text-uppercase">Printable Forecast</a>
@@ -110,6 +111,7 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a href="#" onclick="myFunction('locationBrushyCreek')" class="dropdown-item text-uppercase">Meteogram</a>
+                            <a href="#" onclick="toggleShowOnLoad('brushyCreek')" class="dropdown-item text-uppercase">Toggle Show On Load</a>
                             <a href="https://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=AFD&format=CI&version=1&glossary=1" target="_blank" class="dropdown-item text-uppercase">Area Forecast Discussion</a>
                             <a href="https://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274" target="_blank" class="dropdown-item text-uppercase">Local Forecast</a>
                             <a href="https://forecast.weather.gov/MapClick.php?lat=30.5094&lon=-97.7274&unit=0&lg=english&FcstType=text&TextType=2" target="_blank" class="dropdown-item text-uppercase">Printable Forecast</a>
@@ -124,6 +126,7 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a href="#" onclick="myFunction('locationSanAngelo')" class="dropdown-item text-uppercase">Meteogram</a>
+                            <a href="#" onclick="toggleShowOnLoad('sanAngelo')" class="dropdown-item text-uppercase">Toggle Show On Load</a>
                             <a href="https://forecast.weather.gov/product.php?site=SJT&issuedby=SJT&product=AFD&format=CI&version=1&glossary=1" target="_blank" class="dropdown-item text-uppercase">Area Forecast Discussion</a>
                             <a href="https://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703" target="_blank" class="dropdown-item text-uppercase">Local Forecast</a>
                             <a href="https://forecast.weather.gov/MapClick.php?lat=31.2578&lon=-100.4703&unit=0&lg=english&FcstType=text&TextType=2" target="_blank" class="dropdown-item text-uppercase">Printable Forecast</a>
@@ -138,6 +141,7 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a href="#" onclick="myFunction('locationSchertz')" class="dropdown-item text-uppercase">Meteogram</a>
+                            <a href="#" onclick="toggleShowOnLoad('schertz')" class="dropdown-item text-uppercase">Toggle Show On Load</a>
                             <a href="https://forecast.weather.gov/product.php?site=EWX&issuedby=EWX&product=AFD&format=CI&version=1&glossary=1" target="_blank" class="dropdown-item text-uppercase">Area Forecast Discussion</a>
                             <a href="https://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874" target="_blank" class="dropdown-item text-uppercase">Local Forecast</a>
                             <a href="https://forecast.weather.gov/MapClick.php?lat=29.6151&lon=-98.2874&unit=0&lg=english&FcstType=text&TextType=2" target="_blank" class="dropdown-item text-uppercase">Printable Forecast</a>
@@ -152,6 +156,7 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a href="#" onclick="myFunction('locationCollegeStation')" class="dropdown-item text-uppercase">Meteogram</a>
+                            <a href="#" onclick="toggleShowOnLoad('collegeStation')" class="dropdown-item text-uppercase">Toggle Show On Load</a>
                             <a href="https://forecast.weather.gov/product.php?site=HGX&issuedby=HGX&product=AFD&format=CI&version=1&glossary=1" target="_blank" class="dropdown-item text-uppercase">Area Forecast Discussion</a>
                             <a href="https://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398" target="_blank" class="dropdown-item text-uppercase">Local Forecast</a>
                             <a href="https://forecast.weather.gov/MapClick.php?lat=30.6102&lon=-96.3398&unit=0&lg=english&FcstType=text&TextType=2" target="_blank" class="dropdown-item text-uppercase">Printable Forecast</a>
@@ -589,6 +594,48 @@
                 }
             }
         }
+        
+        function toggleShowOnLoad(city){
+            localStorage.getItem(city) == "true" ? localStorage.setItem(city, "false") : localStorage.setItem(city, "true");        
+        }
+        
+        
+        
+        if (localstorage.getItem("sanMarcos") == null) {
+        localstorage.setItem("sanMarcos", "false");
+        }
+        if (localstorage.getItem("brushyCreek") == null) {
+        localstorage.setItem("brushyCreek", "false");
+        }
+        if (localstorage.getItem("sanAngelo") == null) {
+        localstorage.setItem("sanAngelo", "false");
+        }
+        if (localstorage.getItem("schertz") == null) {
+        localstorage.setItem("schertz", "false");
+        }
+        if (localstorage.getItem("collegeStation") == null) {
+        localstorage.setItem("collegeStation", "false");
+        }
+        
+        if (localstorage.getItem("sanMarcos") == "true") {
+            document.getElementById("sanMarcos").className += " d-block";
+        }
+        if (localstorage.getItem("brushyCreek") == "true") {
+            document.getElementById("brushyCreek").className += " d-block";
+        }
+        if (localstorage.getItem("sanAngelo") == "true") {
+            document.getElementById("sanAngelo").className += " d-block";
+        }
+        if (localstorage.getItem("schertz") == "true") {
+            document.getElementById("schertz").className += " d-block";
+        }
+        if (localstorage.getItem("collegeStation") == "true") {
+            document.getElementById("collegeStation").className += " d-block";
+        }
+
+
+
+
     </script>
 </body>
 <html>
