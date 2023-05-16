@@ -604,6 +604,7 @@
                 
                 localStorage.setItem(city, isCityTrue ? "false" : "true");
                 $("#" + city + "Off").toggleClass("d-none", isCityTrue);
+                $("#" + city + "On").toggleClass("d-none", !isCityTrue);
             }
             
             $(document).ready(function () {
@@ -616,8 +617,8 @@
                         localStorage.setItem(city, "false");
                     } else if (isCityTrue) {
                         $("#location" + city.charAt(0).toUpperCase() + city.slice(1)).addClass("d-block");
-                        $("#" + city + "Off").addClass("d-none");
-                        $("#" + city + "On").removeClass("d-none");
+                        $("#" + city + "Off").toggleClass("d-none", isCityTrue);
+                $("#" + city + "On").toggleClass("d-none", !isCityTrue);
                     }
                 });
             });
