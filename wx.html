@@ -598,9 +598,7 @@
         function toggleShowOnLoad(city){
             localStorage.getItem(city) == "true" ? localStorage.setItem(city, "false") : localStorage.setItem(city, "true");        
         }
-        
-        
-        
+
         if (localStorage.getItem("sanMarcos") == null) {
         localStorage.setItem("sanMarcos", "false");
         }
@@ -618,19 +616,19 @@
         }
         
         if (localStorage.getItem("sanMarcos") == "true") {
-            document.getElementById("sanMarcos").className += " d-block";
+            document.getElementById("locationSanMarcos").className += " d-block";
         }
         if (localStorage.getItem("brushyCreek") == "true") {
-            document.getElementById("brushyCreek").className += " d-block";
+            document.getElementById("locationBrushyCreek").className += " d-block";
         }
         if (localStorage.getItem("sanAngelo") == "true") {
-            document.getElementById("sanAngelo").className += " d-block";
+            document.getElementById("locationSanAngelo").className += " d-block";
         }
         if (localStorage.getItem("schertz") == "true") {
-            document.getElementById("schertz").className += " d-block";
+            document.getElementById("locationSchertz").className += " d-block";
         }
         if (localStorage.getItem("collegeStation") == "true") {
-            document.getElementById("collegeStation").className += " d-block";
+            document.getElementById("locationCollegeStation").className += " d-block";
         }
 
 
