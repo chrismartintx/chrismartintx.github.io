@@ -615,45 +615,59 @@
                                         });
                                     }
                                     
-                                    function toggleShowOnLoad(city){
-                                        localStorage.getItem(city) == "true" ? localStorage.setItem(city, "false") : localStorage.setItem(city, "true");        
-                                    }
-                                    
-                                    if (localStorage.getItem("sanMarcos") == null) {
-                                        localStorage.setItem("sanMarcos", "false");
-                                    }
-                                    if (localStorage.getItem("brushyCreek") == null) {
-                                        localStorage.setItem("brushyCreek", "false");
-                                    }
-                                    if (localStorage.getItem("sanAngelo") == null) {
-                                        localStorage.setItem("sanAngelo", "false");
-                                    }
-                                    if (localStorage.getItem("schertz") == null) {
-                                        localStorage.setItem("schertz", "false");
-                                    }
-                                    if (localStorage.getItem("collegeStation") == null) {
-                                        localStorage.setItem("collegeStation", "false");
-                                    }
-                                    
-                                    if (localStorage.getItem("sanMarcos") == "true") {
-                                        document.getElementById("locationSanMarcos").className += " d-block";
-                                    }
-                                    if (localStorage.getItem("brushyCreek") == "true") {
-                                        document.getElementById("locationBrushyCreek").className += " d-block";
-                                    }
-                                    if (localStorage.getItem("sanAngelo") == "true") {
-                                        document.getElementById("locationSanAngelo").className += " d-block";
-                                    }
-                                    if (localStorage.getItem("schertz") == "true") {
-                                        document.getElementById("locationSchertz").className += " d-block";
-                                    }
-                                    if (localStorage.getItem("collegeStation") == "true") {
-                                        document.getElementById("locationCollegeStation").className += " d-block";
-                                    }
-                                    
-                                    
-                                    
-                                    
-                                </script>
-                            </body>
-                            <html>
+                                    // function toggleShowOnLoad(city){
+                                        //     localStorage.getItem(city) == "true" ? localStorage.setItem(city, "false") : localStorage.setItem(city, "true");        
+                                        // }
+                                        
+                                        // if (localStorage.getItem("sanMarcos") == null) {
+                                            //     localStorage.setItem("sanMarcos", "false");
+                                            // }
+                                            // if (localStorage.getItem("brushyCreek") == null) {
+                                                //     localStorage.setItem("brushyCreek", "false");
+                                                // }
+                                                // if (localStorage.getItem("sanAngelo") == null) {
+                                                    //     localStorage.setItem("sanAngelo", "false");
+                                                    // }
+                                                    // if (localStorage.getItem("schertz") == null) {
+                                                        //     localStorage.setItem("schertz", "false");
+                                                        // }
+                                                        // if (localStorage.getItem("collegeStation") == null) {
+                                                            //     localStorage.setItem("collegeStation", "false");
+                                                            // }
+                                                            
+                                                            // if (localStorage.getItem("sanMarcos") == "true") {
+                                                                //     document.getElementById("locationSanMarcos").className += " d-block";
+                                                                // }
+                                                                // if (localStorage.getItem("brushyCreek") == "true") {
+                                                                    //     document.getElementById("locationBrushyCreek").className += " d-block";
+                                                                    // }
+                                                                    // if (localStorage.getItem("sanAngelo") == "true") {
+                                                                        //     document.getElementById("locationSanAngelo").className += " d-block";
+                                                                        // }
+                                                                        // if (localStorage.getItem("schertz") == "true") {
+                                                                            //     document.getElementById("locationSchertz").className += " d-block";
+                                                                            // }
+                                                                            // if (localStorage.getItem("collegeStation") == "true") {
+                                                                                //     document.getElementById("locationCollegeStation").className += " d-block";
+                                                                                // }
+                                                                                
+                                                                                function toggleShowOnLoad(city) {
+                                                                                    localStorage.getItem(city) == "true" ? localStorage.setItem(city, "false") : localStorage.setItem(city, "true");
+                                                                                }
+                                                                                
+                                                                                $(document).ready(function () {
+                                                                                    var cities = ["sanMarcos", "brushyCreek", "sanAngelo", "schertz", "collegeStation"];
+                                                                                    for (var i = 0; i < cities.length; i++) {
+                                                                                        if (localStorage.getItem(cities[i]) == null) {
+                                                                                            localStorage.setItem(cities[i], "false");
+                                                                                        }
+                                                                                        if (localStorage.getItem(cities[i]) == "true") {
+                                                                                            $("#location" + cities[i].charAt(0).toUpperCase() + cities[i].slice(1)).addClass("d-block");
+                                                                                        }
+                                                                                    }
+                                                                                });
+                                                                                
+                                                                                
+                                                                            </script>
+                                                                        </body>
+                                                                        <html>
