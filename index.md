@@ -2,7 +2,7 @@
 born and raised in Texas.  father of three, nerd, and occasional ultramarathon runner.  i dig tech, car culture, physical sciences, progressive house, yoga, water, and sunshine.
 
 ### employment
-2021 - present | [National EMR)](https://nationalemr.us/) - Information Systems Developer<br/>
+2021 - present | [National EMR](https://nationalemr.us/) - Information Systems Developer<br/>
 2020 - 2021 | [Juvare](https://www.juvare.com/webeoc/) - Technical Implementation Analyst<br/>
 2018 - 2020 | [BCFS HHS EMD (now National EMR)](https://nationalemr.us/) - Information Systems Developer<br/>
 2016 - 2018 | [TDEM](https://tdem.texas.gov/) - Critical Information Systems (WebEOC)<br/>
