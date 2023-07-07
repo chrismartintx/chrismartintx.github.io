@@ -1,18 +1,18 @@
 ### about me
-born and raised in Texas.  father of three, nerd, and occasional ultramarathon runner.  i dig tech, car culture, physical sciences, prog house, yoga, water, and sunshine.
+born and raised in Texas.  father of three, nerd, and occasional ultramarathon runner.  i dig tech, car culture, physical sciences, progressive house, yoga, water, and sunshine.
 
 ### employment
-2021 - present | [FirstDay Foundation](https://firstday.foundation/) - IT/Critical Information Systems<br/>
+2021 - present | [National EMR)](https://nationalemr.us/) - Information Systems Developer<br/>
 2020 - 2021 | [Juvare](https://www.juvare.com/webeoc/) - Technical Implementation Analyst<br/>
-2018 - 2020 | [BCFS HHS EMD (now National EMR)](https://nationalemr.us/) - Critical Information Systems (WebEOC, Workday)<br/>
+2018 - 2020 | [BCFS HHS EMD (now National EMR)](https://nationalemr.us/) - Information Systems Developer<br/>
 2016 - 2018 | [TDEM](https://tdem.texas.gov/) - Critical Information Systems (WebEOC)<br/>
 2007 - 2018 | [Texas A&M Task Force 1](https://texastaskforce1.org/) - Technical Search Specialist, Swiftwater rescue<br/>
 2015 - 2016 | [Brazos County](http://brazosceoc.org) - Deputy Emergency Management Coordinator<br/>
 2003 - 2015 | [Bryan Fire Department](https://www.bryantx.gov/fire/) - Aerial Apparatus Operator, Paramedic, Technical rescue team, HAZMAT Technician
 
 ### education
-* my family... thanks padre<br/>
-* [Texas A&M Engineering Extension Service](https://www.teex.org) - firefighting (recruit class #110), paramedic, HAZMAT, technical rescue, incident command
+* my family... thanks padres<br/>
+* [Texas A&M Engineering Extension Service](https://www.teex.org) - firefighting (recruit class #110), paramedic, HAZMAT, technical rescue, incident command, incident management
 * long list of supervisors and coworkers that believed in me
 * you broke it? fix it!
 
