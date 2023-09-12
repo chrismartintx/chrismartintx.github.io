@@ -1,6 +1,7 @@
 ### about me
 born and raised in Texas.  father of three, nerd, and occasional ultramarathon runner.  i dig tech, car culture, physical sciences, progressive house, yoga, water, and sunshine.
 
+<a href="mailto:chris@chrismartintx.com">email</a> • <a href="https://pgp.chrismartintx.com/" target="window">pgp</a> • <a rel="me" href="https://twit.social/@chrismartintx">mastodon</a>
 ### employment
 2021 - present | [National EMR](https://nationalemr.us/) - Information Systems Developer<br/>
 2020 - 2021 | [Juvare](https://www.juvare.com/webeoc/) - Technical Implementation Analyst<br/>
@@ -40,5 +41,3 @@ born and raised in Texas.  father of three, nerd, and occasional ultramarathon r
 * [Autopian](https://www.theautopian.com/)
 * [Wheel Bearings Podcast](https://wheelbearings.media)
 * [Fireside Conference](https://firesideconf.com)
-<br/><br/>
-<a href="mailto:chris@chrismartintx.com">email</a> • <a href="https://pgp.chrismartintx.com/" target="window">pgp</a> • <a rel="me" href="https://twit.social/@chrismartintx">Mastodon</a>
