@@ -42,4 +42,4 @@ born and raised in Texas.  father of three, nerd, and occasional ultramarathon r
 * [Fireside Conference](https://firesideconf.com)
 <br/><br/>
 
-<a href="mailto:chris@chrismartintx.dev">email 📧</a> • <a rel="me" href="https://twit.social/@chrismartintx">Mastodon 🦣</a>
+<a href="mailto:chris@chrismartintx.dev">email 📧</a> • <a href="https://pgp.chrismartintx.com/key.asc" target="_blank">pgp 🔐</a>• <a rel="me" href="https://twit.social/@chrismartintx">Mastodon 🦣</a>
