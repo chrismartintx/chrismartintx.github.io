@@ -12,13 +12,11 @@ born and raised in Texas.  father of three, nerd, and occasional ultramarathon r
 2003 - 2015 | [Bryan Fire Department](https://www.bryantx.gov/fire/) - Aerial Apparatus Operator, Paramedic, Technical rescue team, HAZMAT Technician
 
 ### education
-* my family... thanks padres<br/>
-* [Texas A&M Engineering Extension Service](https://www.teex.org) - firefighting (recruit class #110), paramedic, HAZMAT, technical rescue, incident command, incident management
-* long list of supervisors and coworkers that believed in me
-* you broke it? fix it!
+* [Texas A&M Engineering Extension Service](https://www.teex.org) - firefighting (recruit class #110), paramedic, HAZMAT, technical rescue, incident command, incident management, emergency management
+* my family... thanks padres
 
 ### influences
-* [Austin No. 12](http://austinlodge12.com), Grand Lodge of Texas A.F. & A.M.<br/>
+* [Austin No. 12](http://austinlodge12.com), Grand Lodge of Texas A.F. & A.M.
 * Boy Scouts
 * taekwondo
 * being told no
