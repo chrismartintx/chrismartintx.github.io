@@ -38,6 +38,6 @@ born and raised in Texas.  father of three, nerd, and occasional ultramarathon r
 * [Council on Foreign Relations](https://www.cfr.org)
 * [Find What Feels Good](https://fwfg.com/)
 * [WeatherBrains](https://weatherbrains.com)
-* [Autopian](https://www.theautopian.com/)
+* [The Autopian](https://www.theautopian.com/)
 * [Wheel Bearings Podcast](https://wheelbearings.media)
 * [Fireside Conference](https://firesideconf.com)
