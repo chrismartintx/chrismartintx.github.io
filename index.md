@@ -41,4 +41,4 @@ born and raised in Texas.  father of three, nerd, and occasional ultramarathon r
 * [Wheel Bearings Podcast](https://wheelbearings.media)
 * [Fireside Conference](https://firesideconf.com)
 <br/><br/>
-<a href="mailto:chris@chrismartintx.com">email 📧</a> • <a href="https://pgp.chrismartintx.com/" target="_blank">pgp 🔐</a>• <a rel="me" href="https://twit.social/@chrismartintx">Mastodon 🦣</a>
+<a href="mailto:chris@chrismartintx.com">email</a> • <a href="https://pgp.chrismartintx.com/" target="window">pgp</a> • <a rel="me" href="https://twit.social/@chrismartintx">Mastodon</a>
