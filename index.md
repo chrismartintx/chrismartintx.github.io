@@ -3,9 +3,9 @@ born and raised in Texas.  father of three, nerd, and occasional ultramarathon r
 
 <a href="mailto:chris@chrismartintx.com">email</a> • <a href="https://pgp.chrismartintx.com/" target="window">pgp</a> • <a rel="me" href="https://twit.social/@chrismartintx">mastodon</a>
 ### employment
-2021 - present | [National EMR](https://nationalemr.us/) - Information Systems Developer<br/>
+2021 - present | [National EMR](https://nationalemr.us/) - Information Systems Developer, All-hazard incident management team<br/>
 2020 - 2021 | [Juvare](https://www.juvare.com/webeoc/) - Technical Implementation Analyst<br/>
-2018 - 2020 | [BCFS HHS EMD (now National EMR)](https://nationalemr.us/) - Information Systems Developer<br/>
+2018 - 2020 | [BCFS HHS EMD (now National EMR)](https://nationalemr.us/) - Information Systems Developer, All-hazard incident management team<br/>
 2016 - 2018 | [TDEM](https://tdem.texas.gov/) - Critical Information Systems (WebEOC)<br/>
 2007 - 2018 | [Texas A&M Task Force 1](https://texastaskforce1.org/) - Technical Search Specialist, Swiftwater rescue<br/>
 2015 - 2016 | [Brazos County](http://brazosceoc.org) - Deputy Emergency Management Coordinator<br/>
