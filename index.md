@@ -15,27 +15,19 @@ born and raised in Texas.  father of three, nerd, and occasional ultramarathon r
 * [Texas A&M Engineering Extension Service](https://www.teex.org) - firefighting (recruit class #110), paramedic, HAZMAT, technical rescue, incident command, incident management, emergency management
 * my family... thanks padres
 
-### influences
-* [Austin No. 12](http://austinlodge12.com), Grand Lodge of Texas A.F. & A.M.
-* Boy Scouts
-* taekwondo
-* being told no
-
-### favorites
-* [Tritonal](http://tritonalmusic.com)
-* [This Week in Tech](https://twit.tv)
+### interests
 * [Techmeme](https://techmeme.com)
-* [Techmeme Ride Home](https://news.techmeme.com/180306/podcast)
-* [Sam Harris](https://samharris.org)
-* [Alan Watts](https://alanwatts.org/)
-* [Dan Carlin](https://www.dancarlin.com/)
+* [This Week in Tech](https://twit.tv)
 * [the cyberwire](https://thecyberwire.com)
 * [Darknet Diaries](https://darknetdiaries.com/)
 * [This Week in Science](https://www.twis.org/)
 * [Stratfor](https://worldview.stratfor.com/)
 * [Council on Foreign Relations](https://www.cfr.org)
-* [Find What Feels Good](https://fwfg.com/)
+* [Sam Harris](https://samharris.org)
+* [Alan Watts](https://alanwatts.org/)
+* [Dan Carlin](https://www.dancarlin.com/)
 * [WeatherBrains](https://weatherbrains.com)
 * [The Autopian](https://www.theautopian.com/)
 * [Wheel Bearings Podcast](https://wheelbearings.media)
-* [Fireside Conference](https://firesideconf.com)
+* [Tritonal](http://tritonalmusic.com)
+* [Austin No. 12](http://austinlodge12.com), Grand Lodge of Texas A.F. & A.M.
