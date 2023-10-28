@@ -1,3 +1,8 @@
+---
+layout: default
+title: hello
+---
+
 ### about me
 born and raised in Texas.  father of three, nerd, and occasional ultramarathon runner.  i dig tech, car culture, physical sciences, progressive house, yoga, water, and sunshine.  if i am not outside, i spend a lot of time thinking of new ways to use my homelab... and a bit of minecraft with the kids.  
 
