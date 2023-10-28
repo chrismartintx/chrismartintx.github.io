@@ -36,9 +36,9 @@ born and raised in Texas.  father of three, nerd, and occasional ultramarathon r
 ### current favorite tools
 * [Tailscale](https://tailscale.com/) - Best VPN Service for Secure Networks
 * [NextDNS](https://nextdns.io/) - The new firewall for the modern Internet
-* [Hover](https://hover.com/3aO8NEay) - Domain Names | Buy Domains & Email At Hover.com
+* [Hover](https://hover.com/3aO8NEay) - Domain Names; Buy Domains & Email At Hover.com
 * [Cloudflare](https://www.cloudflare.com/) - The Web Performance & Security Company
-* [Linode](https://www.linode.com/lp/refer/?r=b8629a35d3c9e8a79527c5adb83fda3b28468a88) - Cloud Computing Services | VMs, Kubernetes, Storage | Akamai
+* [Linode](https://www.linode.com/lp/refer/?r=b8629a35d3c9e8a79527c5adb83fda3b28468a88) - Cloud Computing Services; VMs, Kubernetes, Storage; Akamai
 * [pfSense](https://www.pfsense.org/) - World's Most Trusted Open Source Firewall
 * [Overcast](https://overcast.fm/) - Free, simple, award-winning podcast player for iPhone, iPad, and Apple Watch
 * [FreshRSS](https://freshrss.org/index.html) - a free, self-hostable feeds aggregator
