@@ -32,7 +32,7 @@ born and raised in Texas.  father of three, nerd, and occasional ultramarathon r
 * [Wheel Bearings 🎧](https://wheelbearings.media)
 * [Tritonal 🎶](http://tritonalmusic.com)
 * [Austin No. 12](http://austinlodge12.com), Grand Lodge of Texas A.F. & A.M.
-
+<!-- 
 ### current favorite tools
 * [Tailscale](https://tailscale.com/) - Best VPN Service for Secure Networks
 * [NextDNS](https://nextdns.io/) - The new firewall for the modern Internet
@@ -51,3 +51,4 @@ born and raised in Texas.  father of three, nerd, and occasional ultramarathon r
 * [Docker](https://www.docker.com/) - Accelerated Container Application Development
 * [Home Assistant](https://www.home-assistant.io/) - Open source home automation that puts local control and privacy first
 * [Homebridge](https://homebridge.io/) - Bringing HomeKit support where there is none
+-->
