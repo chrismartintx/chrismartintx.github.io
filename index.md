@@ -1,5 +1,5 @@
 ### about me
-born and raised in Texas.  father of three, nerd, and occasional ultramarathon runner.  i dig tech, car culture, physical sciences, progressive house, yoga, water, and sunshine.
+born and raised in Texas.  father of three, nerd, and occasional ultramarathon runner.  i dig tech, car culture, physical sciences, progressive house, yoga, water, and sunshine.  if i am not outside, i spend a lot of time thinking of new ways to use my homelab... and a bit of minecraft with the kids.
 
 <a href="mailto:chris@chrismartintx.com">email</a> • <a href="https://pgp.chrismartintx.com/" target="window">pgp</a> • <a rel="me" href="https://twit.social/@chrismartintx">mastodon</a>
 ### employment
@@ -32,3 +32,9 @@ born and raised in Texas.  father of three, nerd, and occasional ultramarathon r
 * [Wheel Bearings 🎧](https://wheelbearings.media)
 * [Tritonal 🎶](http://tritonalmusic.com)
 * [Austin No. 12](http://austinlodge12.com), Grand Lodge of Texas A.F. & A.M.
+
+### essential tools
+* [Tailscale](https://tailscale.com/) - Best VPN Service for Secure Networks
+* [NextDNS](https://nextdns.io/) - The new firewall for the modern Internet
+* [pfSense](https://www.pfsense.org/) - World's Most Trusted Open Source Firewall
+* [FreshRSS](https://freshrss.org/index.html) - a free, self-hostable feeds aggregator
