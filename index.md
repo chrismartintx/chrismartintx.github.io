@@ -3,7 +3,7 @@ born and raised in Texas.  father of three, nerd, and occasional ultramarathon r
 
 <a href="mailto:chris@chrismartintx.com">email</a> • <a href="https://pgp.chrismartintx.com/" target="window">pgp</a> • <a rel="me" href="https://twit.social/@chrismartintx">mastodon</a>
 ### employment
-🗓️ | 👨‍🚒   🚒   🚑   🌊   ⛑️   👨‍💼   🏢   👨‍💻
+ 🗓️ | 👨‍🚒   🚒   🚑   🌊   ⛑️   👨‍💼   🏢   👨‍💻<nbsp/>
 --- | ---
 2021<nbsp/>- | [National EMR](https://nationalemr.us/) - Critical Information Systems Developer (WebEOC, AlertMedia, ImageTrend, Salesforce), All-hazard incident management team<br/>
 2020<nbsp/>-<nbsp/>2021 | [Juvare](https://www.juvare.com/webeoc/) - Technical Implementation Analyst (WebEOC, Juvare Events)<br/>
