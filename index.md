@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 🧑‍🚒🚒🚑⛑️🌊👨‍💼🏢👨‍💻
+title: ᕕ( ᐛ )ᕗ
 ---
 
 ### about me
@@ -9,31 +9,31 @@ born and raised in Texas.  father of three, nerd, and occasional ultramarathon r
 <a href="mailto:chris@chrismartintx.com">email</a> • <a href="https://pgp.chrismartintx.com/" target="window">pgp</a>
 ### employment
 
-[National EMR](https://nationalemr.us/)<br/>
+[National EMR](https://nationalemr.us/) 👨‍💻<br/>
 *2021 - present / Schertz, TX*<br/>
 Critical Information Systems Developer (WebEOC, AlertMedia, ImageTrend, Salesforce), All-hazard incident management team
 
-[Juvare](https://www.juvare.com/webeoc/)<br/>
+[Juvare](https://www.juvare.com/webeoc/) 👨‍💻<br/>
 *2020 - 2021 / Atlanta, GA (Remote)*<br/>
 Technical Implementation Analyst (WebEOC, Juvare Events)
 
-[BCFS HHS EMD (now National EMR)](https://nationalemr.us/)<br/>
+[BCFS HHS EMD (now National EMR)](https://nationalemr.us/) 👨‍💻<br/>
 *2018 - 2020 / San Antonio, TX*<br/>
 Critical Information Systems Developer (WebEOC, Workday, AlertMedia), All-hazard incident management team
 
-[Texas Division of Emergency Mangement](https://tdem.texas.gov/)<br/>
+[Texas Division of Emergency Mangement](https://tdem.texas.gov/) 👨‍💻🚑⛑️🌊<br/>
 *2016 - 2018 / Austin, TX*<br/>
 Critical Information Systems Developer (WebEOC)
 
-[Texas A&M Task Force 1](https://texastaskforce1.org/)<br/>
+[Texas A&M Task Force 1](https://texastaskforce1.org/) ⛑️🌊<br/>
 *2007 - 2018 / College Station, TX*<br/>
 Technical Search Specialist, Swiftwater rescue
 
-[Brazos County Office of Emergency Management](http://brazosceoc.org)<br/>
+[Brazos County Office of Emergency Management](http://brazosceoc.org) 👨‍💼<br/>
 *2015 - 2016 / Bryan, TX*<br/>
 Deputy Emergency Management Coordinator
 
-[Bryan Fire Department](https://www.bryantx.gov/fire/)<br/>
+[Bryan Fire Department](https://www.bryantx.gov/fire/) 🧑‍🚒🚒🚑⛑️🌊☢️<br/>
 *2003 - 2015 / Bryan, TX*<br/>
 Structural Firefighter, Aerial Apparatus Operator, Paramedic, Technical Rescue Team, HAZMAT Technician (C-shift, Truck 1)
 
