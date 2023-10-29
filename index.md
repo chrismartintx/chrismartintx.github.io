@@ -23,7 +23,7 @@ Critical Information Systems Developer (WebEOC, Workday, AlertMedia), All-hazard
 
 [Texas Division of Emergency Mangement](https://tdem.texas.gov/) 👨‍💻🚑⛑️🌊<br/>
 *2016 - 2018 / Austin, TX*<br/>
-Critical Information Systems Developer (WebEOC)
+Critical Information Systems Developer (WebEOC), Respond with DPS/TDEM water rescue and EMS personnel as needed
 
 [Texas A&M Task Force 1](https://texastaskforce1.org/) ⛑️🌊<br/>
 *2007 - 2018 / College Station, TX*<br/>
