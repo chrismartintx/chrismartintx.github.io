@@ -1,39 +1,56 @@
 ---
 layout: default
-title: hello
+title: 🧑‍🚒🚒🚑⛑️🌊👨‍💼🏢👨‍💻
 ---
 
 ### about me
 born and raised in Texas.  father of three, nerd, and occasional ultramarathon runner.  i dig tech, car culture, physical sciences, progressive house, yoga, water, and sunshine.  if i am not outside, i spend a lot of time thinking of new ways to use my homelab... and a bit of minecraft with the kids.  
 
-<a href="mailto:chris@chrismartintx.com">email</a> • <a href="https://pgp.chrismartintx.com/" target="window">pgp</a> • <a rel="me" href="https://twit.social/@chrismartintx">mastodon</a>
+<a href="mailto:chris@chrismartintx.com">email</a> • <a href="https://pgp.chrismartintx.com/" target="window">pgp</a>
 ### employment
-2021 -<br/>[National EMR](https://nationalemr.us/) - Schertz, TX<br/>Critical Information Systems Developer (WebEOC, AlertMedia, ImageTrend, Salesforce), All-hazard incident management team
 
-2020 - 2021<br/>[Juvare](https://www.juvare.com/webeoc/) - Atlanta, GA (Remote)<br/>Technical Implementation Analyst (WebEOC, Juvare Events)
+[National EMR](https://nationalemr.us/)<br/>
+*2021 - present / Schertz, TX*<br/>
+Critical Information Systems Developer (WebEOC, AlertMedia, ImageTrend, Salesforce), All-hazard incident management team
 
-2018 - 2020<br/>[BCFS HHS EMD (now National EMR)](https://nationalemr.us/) - San Antonio, TX<br/>Critical Information Systems Developer (WebEOC, Workday, AlertMedia), All-hazard incident management team
+[Juvare](https://www.juvare.com/webeoc/)<br/>
+*2020 - 2021 / Atlanta, GA (Remote)*<br/>
+Technical Implementation Analyst (WebEOC, Juvare Events)
 
-2016 - 2018<br/>[Texas Division of Emergency Mangement](https://tdem.texas.gov/) - Austin, TX<br/>Critical Information Systems Developer (WebEOC)
+[BCFS HHS EMD (now National EMR)](https://nationalemr.us/)<br/>
+*2018 - 2020 / San Antonio, TX*<br/>
+Critical Information Systems Developer (WebEOC, Workday, AlertMedia), All-hazard incident management team
 
-2007 - 2018<br/>[Texas A&M Task Force 1](https://texastaskforce1.org/) - College Station, TX<br/>Technical Search Specialist, Swiftwater rescue
+[Texas Division of Emergency Mangement](https://tdem.texas.gov/)<br/>
+*2016 - 2018 / Austin, TX*<br/>
+Critical Information Systems Developer (WebEOC)
 
-2015 - 2016<br/>[Brazos County Office of Emergency Management](http://brazosceoc.org) - Bryan, TX<br/>Deputy Emergency Management Coordinator
+[Texas A&M Task Force 1](https://texastaskforce1.org/)<br/>
+*2007 - 2018 / College Station, TX*<br/>
+Technical Search Specialist, Swiftwater rescue
 
-2003 - 2015<br/>[Bryan Fire Department](https://www.bryantx.gov/fire/) - Bryan, TX<br/>Structural Firefighter, Aerial Apparatus Operator, Paramedic, Technical Rescue Team, HAZMAT Technician (C-shift, Truck 1)
+[Brazos County Office of Emergency Management](http://brazosceoc.org)<br/>
+*2015 - 2016 / Bryan, TX*<br/>
+Deputy Emergency Management Coordinator
+
+[Bryan Fire Department](https://www.bryantx.gov/fire/)<br/>
+*2003 - 2015 / Bryan, TX*<br/>
+Structural Firefighter, Aerial Apparatus Operator, Paramedic, Technical Rescue Team, HAZMAT Technician (C-shift, Truck 1)
 
 ### interests
-* [Techmeme 🗞️🎧](https://techmeme.com)
-* [This Week in Tech 🎧](https://twit.tv)
-* [the cyberwire 🎧](https://thecyberwire.com)
-* [Darknet Diaries 🎧](https://darknetdiaries.com/)
-* [This Week in Science 🎧](https://www.twis.org/)
-* [Council on Foreign Relations 🗞️🎧](https://www.cfr.org)
-* [Sam Harris 🧠](https://samharris.org)
-* [Alan Watts 🧠](https://alanwatts.org/)
-* [Dan Carlin 📜](https://www.dancarlin.com/)
-* [WeatherBrains 🎧](https://weatherbrains.com)
-* [The Autopian 🏎️](https://www.theautopian.com/)
-* [Wheel Bearings 🎧](https://wheelbearings.media)
-* [Tritonal 🎶](http://tritonalmusic.com)
-* [Austin No. 12](http://austinlodge12.com), Grand Lodge of Texas A.F. & A.M.
+[Techmeme 🗞️🎧](https://techmeme.com)<br/>
+[This Week in Tech 🎧](https://twit.tv)<br/>
+[the cyberwire 🎧](https://thecyberwire.com)<br/>
+[Darknet Diaries 🎧](https://darknetdiaries.com/)<br/>
+[This Week in Science 🎧](https://www.twis.org/)<br/>
+[Council on Foreign Relations 🗞️🎧](https://www.cfr.org)<br/>
+[Sam Harris 🧠](https://samharris.org)<br/>
+[Alan Watts 🧠](https://alanwatts.org/)<br/>
+[Dan Carlin 📜](https://www.dancarlin.com/)<br/>
+[WeatherBrains 🎧](https://weatherbrains.com)<br/>
+[The Autopian 🏎️](https://www.theautopian.com/)<br/>
+[Wheel Bearings 🎧](https://wheelbearings.media)<br/>
+[Tritonal 🎶](http://tritonalmusic.com)<br/>
+[Austin No. 12](http://austinlodge12.com), Grand Lodge of Texas A.F. & A.M.<br/>
+
+<span rel="me" href="https://twit.social/@chrismartintx"/>
