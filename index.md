@@ -6,7 +6,6 @@ title: ᕕ( ᐛ )ᕗ
 ### about me
 born and raised in Texas.  father of three, nerd, and occasional ultramarathon runner.  i dig tech, car culture, physical sciences, progressive house, yoga, water, and sunshine.  if i am not outside, i spend a lot of time thinking of new ways to use my homelab... and a bit of minecraft with the kids.  
 
-<a href="mailto:chris@chrismartintx.com">email</a> • <a href="https://pgp.chrismartintx.com/" target="window">pgp</a>
 ### employment
 
 [National EMR](https://nationalemr.us/) 👨‍💻<br/>
@@ -53,4 +52,5 @@ Structural Firefighter, Aerial Apparatus Operator, Paramedic, Technical Rescue T
 [Tritonal 🎶](http://tritonalmusic.com)<br/>
 [Austin No. 12](http://austinlodge12.com), Grand Lodge of Texas A.F. & A.M.<br/>
 
+<a href="https://pgp.chrismartintx.com/" target="window">email/pgp</a>
 <span rel="me" href="https://twit.social/@chrismartintx"/>
