@@ -4,7 +4,7 @@ title: ᕕ( ᐛ )ᕗ
 ---
 
 ### about me
-Born and raised in Texas, I'm a father of three, nerd, and occasional ultramarathon runner. I dig tech, car culture, physical sciences, progressive house, yoga, water, and sunshine. If I'm not outside, I spend a lot of time thinking of new ways to use my homelab... and a bit of Minecraft with the kids.
+Born and raised in Texas, I'm a father of three, nerd, and occasional ultramarathon runner. I dig tech, car culture, physical sciences, progressive house, yoga, water, and sunshine. If I'm not outside, I spend a lot of time thinking of new ways to use my homelab... and play bit of Minecraft with the kids.
 
 ### employment
 
