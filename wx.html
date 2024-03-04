@@ -689,27 +689,24 @@
             });
         });
 
-        $('.modal').on('shown.bs.modal', function () {
-            // set focus to the input box
-            document.getElementById('searchBox').focus();
-        });
-
-        // dismiss the modal when the user presses the escape key
-        document.addEventListener('keydown', event => {
-            if (event.key === 'Escape') {
-                event.preventDefault();
-               $('.modal').modal('hide');
-            }
-        });
-
-        // Open the modal when the user presses a key
-        document.addEventListener('keydown', event => {
+        function handleModalKeydown(event) {
             if (event.key === 's') {
                 event.preventDefault();
                 $('.modal').modal('show');
-                document.getElementById('searchBox').focus();
+                $('#searchBox').focus().val('');
             }
+        }
+
+        $('.modal').on('shown.bs.modal', function () {
+            $('#searchBox').focus();
+            document.removeEventListener('keydown', handleModalKeydown);
         });
+
+        $('.modal').on('hidden.bs.modal', function () {
+            document.addEventListener('keydown', handleModalKeydown);
+        });
+
+        document.addEventListener('keydown', handleModalKeydown);
 
         // Navigate the list with the arrow keys and follow the link when Enter is pressed
         document.addEventListener('keydown', event => {
