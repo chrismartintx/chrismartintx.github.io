@@ -701,7 +701,7 @@
 
         // Open the modal when the user presses a key
         document.addEventListener('keydown', event => {
-            if (event.key === 's') {
+            if (event.key === 'k' && event.cmdKey) {
                 event.preventDefault();
                 $('.modal').modal('show');
                 document.getElementById('searchBox').focus();
@@ -720,6 +720,7 @@
                 if (event.key === 'Enter' && activeItem) window.open(activeItem.querySelector('a').href, activeItem.querySelector('a').target);
                 if (activeItem) activeItem.classList.remove('active');
                 items[index].classList.add('active');
+                items[index].scrollIntoView({ block: 'nearest' });
             }
         });
         
