@@ -662,7 +662,7 @@
 
 
         // Get all anchor tags and sort them alphabetically
-        const anchors = Array.from(document.querySelectorAll('.dropdown-item')).sort((a, b) => a.textContent.localeCompare(b.textContent));
+        const anchors = Array.from(document.querySelectorAll('.dropdown-item'));
 
         // Populate the list with the anchor tags
         const list = document.getElementById('searchResults');
