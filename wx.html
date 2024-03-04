@@ -644,6 +644,73 @@
                 }
             });
         });
+
+        // Create a modal with a search box and a list
+        const modal = document.createElement('div');
+        modal.id = 'searchModal';
+        modal.innerHTML = `
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Search</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <input type="text" id="searchBox" class="form-control" placeholder="Search...">
+                        <ul id="searchResults" class="list-group mt-2"></ul>
+                    </div>
+                </div>
+            </div>
+        `;
+        document.body.appendChild(modal);
+
+        // Get all anchor tags and sort them alphabetically
+        const anchors = Array.from(document.querySelectorAll('a')).sort((a, b) => a.textContent.localeCompare(b.textContent));
+
+        // Populate the list with the anchor tags
+        const list = document.getElementById('searchResults');
+        anchors.forEach(anchor => {
+            const listItem = document.createElement('li');
+            listItem.classList.add('list-group-item');
+            listItem.innerHTML = `<a href="${anchor.href}" target="${anchor.target}">${anchor.textContent}</a>`;
+            list.appendChild(listItem);
+        });
+
+        // Filter the list based on the search box input
+        document.getElementById('searchBox').addEventListener('input', event => {
+            const searchTerm = event.target.value.toLowerCase();
+            Array.from(list.children).forEach(listItem => {
+                const linkText = listItem.textContent.toLowerCase();
+                listItem.style.display = linkText.includes(searchTerm) ? '' : 'none';
+            });
+        });
+
+        // Open the modal when the user presses a key
+        document.addEventListener('keydown', event => {
+            if (event.key === '/') {
+                event.preventDefault();
+                $(modal).modal('show');
+                document.getElementById('searchBox').focus();
+            }
+        });
+
+        // Navigate the list with the arrow keys and follow the link when Enter is pressed
+        document.addEventListener('keydown', event => {
+            if (['ArrowUp', 'ArrowDown', 'Enter'].includes(event.key)) {
+                event.preventDefault();
+                const items = Array.from(list.children).filter(item => item.style.display !== 'none');
+                const activeItem = items.find(item => item.classList.contains('active'));
+                let index = items.indexOf(activeItem);
+                if (event.key === 'ArrowUp') index = Math.max(0, index - 1);
+                if (event.key === 'ArrowDown') index = Math.min(items.length - 1, index + 1);
+                if (event.key === 'Enter' && activeItem) window.open(activeItem.querySelector('a').href, activeItem.querySelector('a').target);
+                if (activeItem) activeItem.classList.remove('active');
+                items[index].classList.add('active');
+            }
+        });
+        
         
     </script>
 </body>
