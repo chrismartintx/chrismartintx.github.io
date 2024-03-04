@@ -694,6 +694,7 @@
                 event.preventDefault();
                 $('.modal').modal('show');
                 $('#searchBox').focus().val('');
+                Array.from(list.children).forEach(listItem => listItem.style.display = '');
             }
         }
 
