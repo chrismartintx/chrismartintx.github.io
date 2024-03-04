@@ -701,9 +701,9 @@
 
         // Open the modal when the user presses a key
         document.addEventListener('keydown', event => {
-            if (event.key === 's') {
+            if (event.key === 'k' && event.cmdKey) {
                 event.preventDefault();
-                $(modal).modal('show');
+                $('.modal').modal('show');
                 document.getElementById('searchBox').focus();
             }
         });
