@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="container-fluid p-0">
-        <div class="modal modal-dialog fade" tabindex="-1" role="document">
+        <div class="modal modal-dialog fade">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">Search</h5>
@@ -662,14 +662,17 @@
 
 
         // Get all anchor tags and sort them alphabetically
-        const anchors = Array.from(document.querySelectorAll('a')).sort((a, b) => a.textContent.localeCompare(b.textContent));
+        const anchors = Array.from(document.querySelectorAll('.dropdown-item')).sort((a, b) => a.textContent.localeCompare(b.textContent));
 
         // Populate the list with the anchor tags
+        
         const list = document.getElementById('searchResults');
         anchors.forEach(anchor => {
+            const parentMenu = anchor.closest('.dropdown-menu');
+            const parentMenuTitle = parentMenu.previousElementSibling.textContent;
             const listItem = document.createElement('li');
             listItem.classList.add('list-group-item');
-            listItem.innerHTML = `<a href="${anchor.href}" target="${anchor.target}">${anchor.textContent}</a>`;
+            listItem.innerHTML = `<a href="${anchor.href}" target="${anchor.target}">${parentMenuTitle} - ${anchor.textContent}</a>`;
             list.appendChild(listItem);
         });
 
@@ -682,14 +685,14 @@
             });
         });
 
-        // Open the modal when the user presses a key
-        document.addEventListener('keydown', event => {
-            if (event.key === '/') {
-                event.preventDefault();
-                $(modal).modal('show');
-                document.getElementById('searchBox').focus();
-            }
-        });
+        // // Open the modal when the user presses a key
+        // document.addEventListener('keydown', event => {
+        //     if (event.key === '/') {
+        //         event.preventDefault();
+        //         $(modal).modal('show');
+        //         document.getElementById('searchBox').focus();
+        //     }
+        // });
 
         // Navigate the list with the arrow keys and follow the link when Enter is pressed
         document.addEventListener('keydown', event => {
