@@ -672,7 +672,7 @@
             const parentMenuTitle = parentMenu.previousElementSibling.textContent;
             const listItem = document.createElement('li');
             listItem.classList.add('list-group-item');
-            listItem.innerHTML = `<a href="${anchor.href}" target="${anchor.target}">${parentMenuTitle} - ${anchor.textContent}</a>`;
+            listItem.innerHTML = `<a class="list-group-item list-group-item-action" href="${anchor.href}" target="${anchor.target}">${parentMenuTitle} - ${anchor.textContent}</a>`;
             list.appendChild(listItem);
         });
 
@@ -683,6 +683,13 @@
                 const linkText = listItem.textContent.toLowerCase();
                 listItem.style.display = linkText.includes(searchTerm) ? '' : 'none';
             });
+        });
+
+// dismiss the modal when the user clicks outside of it
+        document.addEventListener('click', event => {
+            if (event.target.closest('.modal') && !event.target.closest('.modal-content')) {
+                $(modal).modal('hide');
+            }
         });
 
         // // Open the modal when the user presses a key
