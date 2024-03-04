@@ -675,8 +675,8 @@
             listItem.classList.add('list-group-item');
             listItem.innerHTML = `<a class="list-group-item list-group-item-action" href="${anchor.href}" target="${anchor.target}">${parentMenuTitle} - ${anchor.textContent}</a>`;
             list.appendChild(listItem);
-            list.sort((a, b) => a.textContent.localeCompare(b.textContent));
         });
+
 
         // Filter the list based on the search box input
         document.getElementById('searchBox').addEventListener('input', event => {
