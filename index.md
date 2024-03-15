@@ -24,13 +24,13 @@ Critical Information Systems Developer (WebEOC, Workday, AlertMedia), All-hazard
 *2016 - 2018 / Austin, TX*<br/>
 Critical Information Systems Developer (WebEOC), Respond with DPS/TDEM water rescue and EMS personnel as needed
 
-[Texas A&M Task Force 1](https://texastaskforce1.org/) ⛑️🌊<br/>
-*2007 - 2018 / College Station, TX*<br/>
-Technical Search Specialist, Swiftwater rescue
-
 [Brazos County Office of Emergency Management](http://brazosceoc.org) 👨‍💼<br/>
 *2015 - 2016 / Bryan, TX*<br/>
 Deputy Emergency Management Coordinator
+
+[Texas A&M Task Force 1](https://texastaskforce1.org/) ⛑️🌊<br/>
+*2007 - 2018 / College Station, TX*<br/>
+Technical Search Specialist, Swiftwater rescue
 
 [Bryan Fire Department](https://www.bryantx.gov/fire/) 🧑‍🚒🚒🚑⛑️🌊☢️<br/>
 *2003 - 2015 / Bryan, TX*<br/>
