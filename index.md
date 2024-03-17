@@ -52,5 +52,5 @@ Structural Firefighter, Aerial Apparatus Operator, Paramedic, Technical Rescue T
 [Tritonal 🎶](http://tritonalmusic.com)<br/>
 [Austin No. 12](http://austinlodge12.com), Grand Lodge of Texas A.F. & A.M.<br/>
 
-<a href="https://pgp.chrismartintx.com/" target="window">email/pgp</a>
+<a href="https://chrismartintx.com/pgp/" target="window">email/pgp</a>
 <span rel="me" href="https://twit.social/@chrismartintx"/>

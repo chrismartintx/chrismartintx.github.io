@@ -1,4 +1,7 @@
 remote-theme: knhash/jekyllBear
 # theme: jekyll-theme-minimal
 title: Chris Martin
-description: pretty simple...
+description: Chris Martin
+url: https://chrismartin.com
+baseurl: ""
+favicon: /_assets/favicon.ico
