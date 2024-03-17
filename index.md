@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ᕕ( ᐛ )ᕗ
+# title: 
 ---
 
 ### about me
