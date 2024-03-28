@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WebEOC - Shortcut Menu
 // @namespace    https://webeoc.nationalemr.us/eoc7/
-// @version      1.0.4
+// @version      1.0.5
 // @description  Administrator shortcut menu
 // @author       Chris Martin
 // @match        https://webeoc.nationalemr.us/eoc7/boards/boarddata.ashx?command=DATA*

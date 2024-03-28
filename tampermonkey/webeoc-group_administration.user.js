@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WebEOC - Group Administration
 // @namespace    https://webeoc.nationalemr.us/eoc7/
-// @version      1.0.3
+// @version      1.0.5
 // @description  Get and set groups from positions in WebEOC
 // @author       You
 // @match        https://webeoc.nationalemr.us/eoc7/admin/positions/detail.aspx?positionid=*

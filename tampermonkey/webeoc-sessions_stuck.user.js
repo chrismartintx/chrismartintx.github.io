@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WebEOC - Sessions (Stuck)
 // @namespace    https://webeoc.nationalemr.us/eoc7/
-// @version      1.0.3
+// @version      1.0.5
 // @description  Sort by postion and kill any stuck sessions, exluding "SubscriptionBoard User"
 // @author       Chris Martin
 // @match        https://webeoc.nationalemr.us/eoc7/admin/sessions/list.aspx

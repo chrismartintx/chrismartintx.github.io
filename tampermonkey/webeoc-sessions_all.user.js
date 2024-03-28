@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WebEOC - Sessions (All)
 // @namespace    https://webeoc.nationalemr.us/eoc7/
-// @version      1.0.3
+// @version      1.0.5
 // @description  Auto-kill all WebEOC sessions.  Should be used in conjuction with a search term.
 // @author       You
 // @match        https://webeoc.nationalemr.us/eoc7/admin/sessions/list.aspx

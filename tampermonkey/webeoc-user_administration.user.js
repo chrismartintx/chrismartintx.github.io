@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WebEOC - User Administration
 // @namespace    https://webeoc.nationalemr.us/eoc7/
-// @version      1.0.3
+// @version      1.0.5
 // @description  try to take over the world!
 // @author       You
 // @match        https://webeoc.nationalemr.us/eoc7/admin/users/detail.aspx?userid=*
