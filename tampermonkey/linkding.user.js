@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         linkding
 // @namespace    https://linkding.chrismartintx.com/
-// @version      1.0.3
+// @version      1.0.4
 // @description  Automatically check unread and save
 // @author       You
 // @match        https://linkding.chrismartintx.com/bookmarks/new*
